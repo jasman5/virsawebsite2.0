@@ -56,8 +56,8 @@ const FooterSection: React.FC = () => {
               <a href="#" className="block transition-colors hover:text-primary">
                 Home
               </a>
-              <a href="/event" className="block transition-colors hover:text-primary">
-                Event
+              <a href="/events" className="block transition-colors hover:text-primary">
+                Events
               </a>
               <a href="/gallery" className="block transition-colors hover:text-primary">
                 Gallery

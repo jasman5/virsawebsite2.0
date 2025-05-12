@@ -1,7 +1,7 @@
 import { Gallery4 } from "@/app/components/gallery4";
 import Link from 'next/link';
 
-const demoData: Gallery4Props = {
+const demoData = {
   title: "Events",
   description:
     "Discover how leading companies and developers are leveraging modern web technologies to build exceptional digital experiences. These case studies showcase real-world applications and success stories.",
@@ -12,7 +12,7 @@ const demoData: Gallery4Props = {
       description: "",
       href: "/events?event=5",
       image:
-        "https://images.unsplash.com/photo-1551250928-243dc937c49d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDI3NzN8MHwxfGFsbHwxMjN8fHx8fHwyfHwxNzIzODA2OTM5fA&ixlib=rb-4.0.3&q=80&w=1080",
+        "Gurupurab25.jpg",
     },
     {
       id: "sham-e-virasat",
@@ -28,7 +28,7 @@ const demoData: Gallery4Props = {
       description: "",
       href: "/events?event=2",
       image:
-        "https://images.unsplash.com/photo-1536735561749-fc87494598cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDI3NzN8MHwxfGFsbHwxNzd8fHx8fHwyfHwxNzIzNjM0NDc0fA&ixlib=rb-4.0.3&q=80&w=1080",
+        "Mela25.jpg",
     },
     {
       id: "chabeel",
