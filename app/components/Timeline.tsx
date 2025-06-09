@@ -21,7 +21,7 @@ const Timeline: React.FC = () => {
       year: "2024",
       title: "Annual Cultural Fest",
       text: "A vibrant celebration of art, music, and dance showcasing our college's diverse cultural heritage.",
-      imageUrl: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-4.0.3"
+      imageUrl: "mela3.jpeg"
     },
     {
       year: "2023",

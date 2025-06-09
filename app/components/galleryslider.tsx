@@ -12,7 +12,10 @@ const demoData: Gallery4Props = {
       description: "",
       href: "/events?event=5",
       image:
-        "https://images.unsplash.com/photo-1551250928-243dc937c49d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDI3NzN8MHwxfGFsbHwxMjN8fHx8fHwyfHwxNzIzODA2OTM5fA&ixlib=rb-4.0.3&q=80&w=1080",
+        "gur7.jpeg",
+     
+
+
     },
     {
       id: "sham-e-virasat",
@@ -20,7 +23,7 @@ const demoData: Gallery4Props = {
       description: "",
       href: "/events?event=1",
       image:
-        "https://images.unsplash.com/photo-1551250928-e4a05afaed1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDI3NzN8MHwxfGFsbHwxMjR8fHx8fHwyfHwxNzIzODA2OTM5fA&ixlib=rb-4.0.3&q=80&w=1080",
+        "mela5.jpeg",
     },
     {
       id: "virsa-mela",
@@ -28,7 +31,7 @@ const demoData: Gallery4Props = {
       description: "",
       href: "/events?event=2",
       image:
-        "https://images.unsplash.com/photo-1536735561749-fc87494598cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDI3NzN8MHwxfGFsbHwxNzd8fHx8fHwyfHwxNzIzNjM0NDc0fA&ixlib=rb-4.0.3&q=80&w=1080",
+        "mela7.jpeg",
     },
     {
       id: "chabeel",
@@ -36,15 +39,15 @@ const demoData: Gallery4Props = {
       description: "",
       href: "/events?event=3",
       image:
-        "https://images.unsplash.com/photo-1548324215-9133768e4094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDI3NzN8MHwxfGFsbHwxMzF8fHx8fHwyfHwxNzIzNDM1MzA1fA&ixlib=rb-4.0.3&q=80&w=1080",
+        "chabeel4.jpg",
     },
     {
       id: "turban-tying",
-      title: "Turbam Tying",
-      description: "",
+      title: "Rubaru",
+      description: "a talk event ",
       href: "/events?event=4",
       image:
-        "https://images.unsplash.com/photo-1550070881-a5d71eda5800?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2NDI3NzN8MHwxfGFsbHwxMjV8fHx8fHwyfHwxNzIzNDM1Mjk4fA&ixlib=rb-4.0.3&q=80&w=1080",
+        "rubaru4.JPeG",
     },
   ],
 };

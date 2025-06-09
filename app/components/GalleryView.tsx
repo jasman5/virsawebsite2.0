@@ -25,58 +25,58 @@ const GalleryView: React.FC<GalleryViewProps> = ({ selectedYear }) => {
   useEffect(() => {
     // Define custom images for each year
     const yearToImages: Record<string, Array<{url: string, caption: string}>> = {
-      '2011': [
-        { url: 'photo.jpg', caption: 'Opening Ceremony 2011' },
-        { url: 'gg.jpg', caption: 'Dance Performance 2011' },
-        { url: 'photo.jpg', caption: 'Cultural Exhibition 2011' },
-        { url: 'photo.jpg', caption: 'Award Ceremony 2011' },
-        { url: 'photo.jpg', caption: 'Group Photo 2011' },
-        { url: 'photo.jpg', caption: 'Closing Event 2011' },
+      '2020': [
+        { url: 'photo.jpg', caption: 'Cultural Showcase 2020' },
+        { url: 'http://imageshack.com/f/pozeHu8dj', caption: 'Dance Performance 2020' },
+        { url: 'https://imageshack.com/i/pnP9eTifj', caption: 'Chabeel 2020' },
+        { url: 'photo.jpg', caption: 'Gurpurab 2020' },
+        { url: 'photo.jpg', caption: 'Team 2020' },
+        { url: 'https://imageshack.com/i/pmToLPufj', caption: 'Closing Ceremony 2020' },
       ],
-      '2012': [
-        { url: 'photo.jpg', caption: 'Main Stage 2012' },
-        { url: 'photo.jpg', caption: 'Traditional Dance 2012' },
-        { url: 'photo.jpg', caption: 'Music Concert 2012' },
-        { url: 'photo.jpg', caption: 'Art Display 2012' },
-        { url: 'photo.jpg', caption: 'Fashion Show 2012' },
-        { url: 'photo.jpg', caption: 'Audience 2012' },
+      '2021': [
+        { url: 'photo.jpg', caption: 'Cultural Showcase 2021' },
+        { url: 'http://imageshack.com/f/pnSSsw4Gj', caption: 'Dance Performance 2021' },
+        { url: 'https://imageshack.com/i/pnqu4hiPj', caption: 'Chabeel 2021' },
+        { url: 'https://imageshack.com/i/poN5KuZTj', caption: 'Gurpurab 2021' },
+        { url: 'photo.jpg', caption: 'Mela 2021' },
+        { url: 'photo.jpg', caption: 'Closing Ceremony 2021' },
       ],
-      '2013': [
-        { url: 'photo.jpg', caption: 'Opening Night 2013' },
-        { url: 'photo.jpg', caption: 'Cultural Showcase 2013' },
-        { url: 'photo.jpg', caption: 'Dance Competition 2013' },
-        { url: 'photo.jpg', caption: 'Food Festival 2013' },
-        { url: 'photo.jpg', caption: 'Award Ceremony 2013' },
-        { url: 'photo.jpg', caption: 'Closing Ceremony 2013' },
+      '2022': [
+        { url: 'https://i.imgur.com/Fovvwzu.jpg', caption: 'Cultural Showcase 2022' },
+        { url: 'https://imageshack.com/i/poHDAWmIj', caption: 'Dance Competition 2022' },
+        { url: 'chabeel2.jpg', caption: 'Chabeel 2022' },
+        { url: 'https://imageshack.com/i/pnrUdczjj', caption: 'Gurupurab 2022' },
+        { url: 'https://imagizer.imageshack.com/img923/6546/BDR0TD.jpg', caption: 'Society fair 2022' },
+        { url: 'https://imagizer.imageshack.com/img922/597/uM6hUG.jpg', caption: 'Turban tying 2022' },
       ],
-      '2014': [
-        { url: 'photo.jpg', caption: 'Opening Night 2014' },
-        { url: 'photo.jpg', caption: 'Cultural Showcase 2014' },
-        { url: 'photo.jpg', caption: 'Dance Competition 2014' },
-        { url: 'photo.jpg', caption: 'Food Festival 2014' },
-        { url: 'photo.jpg', caption: 'Award Ceremony 2014' },
-        { url: 'photo.jpg', caption: 'Closing Ceremony 2014' },
+      '2023': [
+        { url: 'mela.jpeg', caption: 'Cultural Showcase 2023' },
+        { url: 'shaame.jpeg', caption: 'shaame e virasat 2023' },
+        { url: 'chabeel2.jpg', caption: 'Chabeel 2023' },
+        { url: 'gur3.jpeg', caption: 'Gurupurab 2023' },
+        { url: 'mela23.jpg', caption: 'team 2023' },
+        { url: 'team.jpeg', caption: 'Closing Ceremony 2023' },
       ],
-      '2015': [
-        { url: 'photo.jpg', caption: 'Opening Night 2015' },
-        { url: 'photo.jpg', caption: 'Cultural Showcase 2015' },
-        { url: 'photo.jpg', caption: 'Dance Competition 2015' },
-        { url: 'photo.jpg', caption: 'Food Festival 2015' },
-        { url: 'photo.jpg', caption: 'Award Ceremony 2015' },
-        { url: 'photo.jpg', caption: 'Closing Ceremony 2015' },
+      '2024': [
+        { url: 'mela7.jpeg', caption: 'Cultural Showcase 2024' },
+        { url: 'mela6.jpg', caption: 'Mela 2024' },
+        { url: 'chabeel.jpeg', caption: 'Chabeel 2024' },
+        { url: 'gur4.jpeg', caption: 'Gurupurab 2024' },
+        { url: 'rubaru2.jpeg', caption: 'Virsa talks 2024' },
+        { url: 'ori2.jpeg', caption: 'Closing Ceremony 2024' },
       ],
-      '2016': [
-        { url: 'photo.jpg', caption: 'Opening Night 2016' },
-        { url: 'photo.jpg', caption: 'Cultural Showcase 2016' },
-        { url: 'photo.jpg', caption: 'Dance Competition 2016' },
-        { url: 'photo.jpg', caption: 'Food Festival 2016' },
-        { url: 'photo.jpg', caption: 'Award Ceremony 2016' },
-        { url: 'photo.jpg', caption: 'Closing Ceremony 2016' },
+      '2025': [
+        { url: 'mela24.jpg', caption: 'Cultural Showcase 2025' },
+        { url: 'mela5.jpeg', caption: 'Mela  2025' },
+        { url: 'chabeel3.jpg', caption: 'Chabeel 2025' },
+        { url: 'gur10.jpeg', caption: 'Gurupurab 2025' },
+        { url: 'retro3.jpeg', caption: 'Retro Games 2025' },
+        { url: 'mela3.jpeg', caption: 'Virsa walk 2025' },
       ],
     };
 
     // Get images for the selected year or use default
-    const yearImages = yearToImages[selectedYear] || yearToImages['2011'];
+    const yearImages = yearToImages[selectedYear] || yearToImages['2020'];
     
     // Generate gallery images with dimensions
     const newGalleryImages = yearImages.map((img, index) => {

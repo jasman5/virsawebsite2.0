@@ -38,40 +38,40 @@ const TimelineGallery: React.FC<TimelineGalleryProps> = ({ onYearChange }) => {
 
   const items: TimelineItem[] = [
     {
-      year: "2011",
+      year: "2020",
       title: "Our nice super title",
       text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       imageUrl: "https://unsplash.it/1920/500?image=11"
     },
     {
-      year: "2012",
+      year: "2021",
       title: "Our nice super title",
       text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       imageUrl: "https://unsplash.it/1920/500?image=12"
     },
     {
-      year: "2013",
+      year: "2022",
       title: "Our nice super title",
       text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      imageUrl: "https://unsplash.it/1920/500?image=13"
+      imageUrl: "https://i.imgur.com/U5eQBv0.jpg"
     },
     {
-      year: "2014",
+      year: "2023",
       title: "Our nice super title",
       text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      imageUrl: "https://unsplash.it/1920/500?image=14"
+      imageUrl: "mela.jpeg"
     },
     {
-      year: "2015",
-      title: "Our nice super title",
+      year: "2024",
+      title: "a good year indeed!!",
       text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      imageUrl: "https://unsplash.it/1920/500?image=15"
+      imageUrl: "mela7.jpeg"
     },
     {
-      year: "2016",
-      title: "Our nice super title",
+      year: "2025",
+      title: "A great start to the year!!",
       text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      imageUrl: "https://unsplash.it/1920/500?image=16"
+      imageUrl: "mela4.jpeg"
     }
   ];
 

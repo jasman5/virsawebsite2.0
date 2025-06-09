@@ -18,33 +18,34 @@ const ImageSlider: React.FC = () => {
   const [items, setItems] = useState<SliderItem[]>([
     {
       id: 1,
-      title: "Gurpurab",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-      imageUrl: "https://cdn.mos.cms.futurecdn.net/dP3N4qnEZ4tCTCLq59iysd.jpg"
+      title: "GURPURAB",
+      description: "Virsa hosts this event in the memory of Guru Nanak Dev Ji to seek his blessings and to thank the almighty and bring peace. Every year, Ragis sing divine and melodious hymns, swaying everyone inthe rhythms of spirituality. This is followed by Guru ka Langar. Virsa keeps us deeply rooted and bound to our diverse culture.",
+      imageUrl: "gur3.jpeg"
+    },
+    
+    {
+      id: 3,
+      title: "VIRSA MELA",
+      description: "Virsa Mela, a Punjabi Culture Carnival is a lively celebration of Punjab's traditions, featuring vibrant folk dances, traditional music, and delicious regional cuisine. It offers a joyful glimpse into the colorful and welcoming spirit of Punjabi heritage through performances, art, and crafts.",
+      imageUrl: "mela.jpeg"
     },
     {
       id: 2,
-      title: "Sham-e-Virasat",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-      imageUrl: "https://i.redd.it/tc0aqpv92pn21.jpg"
-    },
-    {
-      id: 3,
-      title: "Virsa Mela",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-      imageUrl: "https://wharferj.files.wordpress.com/2015/11/bio_north.jpg"
+      title: "SHAM-E-VIRASAT",
+      description: "Cultural Eve, also known as Sham-Ae-Virasat, is one of Virsa's most significant events. It features Bhangra, Sammi, plays, singing, and traditional poetry. This event is cherished by all as it celebrates the spirit of Punjabi culture.",
+      imageUrl: "shaame.jpeg"
     },
     {
       id: 4,
       title: "Chabeel",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-      imageUrl: "https://images7.alphacoders.com/878/878663.jpg"
+      description: "Every summer, Virsa hosts a vibrant chabeel to honor Guru Arjan Dev Ji and celebrate the rich essence of Sikh culture. Chabeel is a traditional Punjabi summer drink, known for its cooling and refreshing qualities.",
+      imageUrl: "chabeel1.JPeG"
     },
     {
       id: 5,
-      title: "Turbam Tying",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-      imageUrl: "https://theawesomer.com/photos/2017/07/simon_stalenhag_the_electric_state_6.jpg"
+      title: "Virsa Talks",
+      description: "A talk session where we interact with famous ppersonalities and have there lessons and learnings.",
+      imageUrl: "rubaru2.jpeg"
     },
     // {
     //   id: 6,
