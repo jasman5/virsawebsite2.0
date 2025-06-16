@@ -50,7 +50,7 @@ const GalleryView: React.FC<GalleryViewProps> = ({ selectedYear }) => {
         { url: 'https://imagizer.imageshack.com/img922/597/uM6hUG.jpg', caption: 'Turban tying 2022' },
       ],
       '2023': [
-        { url: 'mela.jpeg', caption: 'Cultural Showcase 2023' },
+        { url: 'mela9.jpg', caption: 'Cultural Showcase 2023' },
         { url: 'shaame.jpeg', caption: 'shaame e virasat 2023' },
         { url: 'chabeel2.jpg', caption: 'Chabeel 2023' },
         { url: 'gur3.jpeg', caption: 'Gurupurab 2023' },
@@ -58,7 +58,7 @@ const GalleryView: React.FC<GalleryViewProps> = ({ selectedYear }) => {
         { url: 'team.jpeg', caption: 'Closing Ceremony 2023' },
       ],
       '2024': [
-        { url: 'mela7.jpeg', caption: 'Cultural Showcase 2024' },
+        { url: 'mela8.jpg', caption: 'Cultural Showcase 2024' },
         { url: 'mela6.jpg', caption: 'Mela 2024' },
         { url: 'chabeel.jpeg', caption: 'Chabeel 2024' },
         { url: 'gur4.jpeg', caption: 'Gurupurab 2024' },

@@ -73,8 +73,8 @@ const FooterSection: React.FC = () => {
           <div>
             <h3 className="mb-4 text-lg font-semibold">Contact Us</h3>
             <address className="space-y-2 text-sm not-italic">
-              <p>123 Innovation Street</p>
-              <p>Tech City, TC 12345</p>
+              <p>Thapar Institute of engineering and technology</p>
+              <p>Patiala</p>
               <p>Phone: (123) 456-7890</p>
               <p>Email: hello@example.com</p>
             </address>

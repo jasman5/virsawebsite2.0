@@ -33,7 +33,7 @@ const ImageSlider: React.FC = () => {
       id: 2,
       title: "SHAM-E-VIRASAT",
       description: "Cultural Eve, also known as Sham-Ae-Virasat, is one of Virsa's most significant events. It features Bhangra, Sammi, plays, singing, and traditional poetry. This event is cherished by all as it celebrates the spirit of Punjabi culture.",
-      imageUrl: "shaame.jpeg"
+      imageUrl: "shaame2.jpeg"
     },
     {
       id: 4,
