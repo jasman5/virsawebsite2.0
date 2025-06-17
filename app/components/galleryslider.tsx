@@ -12,14 +12,7 @@ const demoData = {
       description: "",
       href: "/events?event=5",
       image:
-<<<<<<< HEAD
-        "gur7.jpeg",
-     
-
-
-=======
         "Gurupurab25.jpg",
->>>>>>> 1106b71846e9bae01613a028bc5b7facb9f2fd3e
     },
     {
       id: "sham-e-virasat",
@@ -35,11 +28,7 @@ const demoData = {
       description: "",
       href: "/events?event=2",
       image:
-<<<<<<< HEAD
-        "mela7.jpeg",
-=======
         "Mela25.jpg",
->>>>>>> 1106b71846e9bae01613a028bc5b7facb9f2fd3e
     },
     {
       id: "chabeel",
