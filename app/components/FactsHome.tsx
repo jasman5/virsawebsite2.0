@@ -11,32 +11,32 @@ export function GlowingEffectDemo() {
       <GridItem
         area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"
         icon={<Box className="h-4 w-4" />}
-        title="A Few Facts About VIRSA"
-        description="Running out of copy so I'll write anything."
+        title="At Virsa, tradition meets talent in a celebration of heritage and identity."
+        description="VIRSA = Punjabi Heritage"
       />
       <GridItem
         area="md:[grid-area:1/7/2/13] xl:[grid-area:2/1/3/5]"
         icon={<Settings className="h-4 w-4" />}
-        title="#1"
-        description="Cultural Society"
+        title="Keeping Punjab alive in every clap, twirl, and tune.”"
+        description="100+ team"
       />
       <GridItem
         area="md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]"
         icon={<Lock className="h-4 w-4" />}
-        title="100+"
-        description="team"
+        title="With a mission rooted in pride and tradition, Virsa Society is dedicated to preserving and promoting the rich heritage of Punjabi culture."
+        description="#1 cultural society"
       />
       <GridItem
         area="md:[grid-area:2/7/3/13] xl:[grid-area:1/8/2/13]"
         icon={<Sparkles className="h-4 w-4" />}
-        title="1000+"
-        description="Crowd"
+        title="From phulkari to punjabi jutti, our fashion has travelled the world."
+        description="30+ awards 2000+ crowd"
       />
       <GridItem
         area="md:[grid-area:3/1/4/13] xl:[grid-area:2/8/3/13]"
         icon={<Search className="h-4 w-4" />}
-        title="30+"
-        description="awards"
+        title="Bhangra was originally a harvest dance but now it's our go-to move for every celebration!"
+        description="The dhol isn’t just an instrument—it's a heartbeat that unites us all on the dance floor."
       />
     </ul>
     </div>

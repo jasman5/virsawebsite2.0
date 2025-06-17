@@ -4,14 +4,14 @@ import Link from 'next/link';
 const demoData = {
   title: "Events",
   description:
-    "Discover how leading companies and developers are leveraging modern web technologies to build exceptional digital experiences. These case studies showcase real-world applications and success stories.",
+    "At Virsa, we celebrate the vibrant spirit of Punjabi culture through a range of dynamic events. From our grand annual cultural fest that brings together music, dance, and traditional art, to thematic showcases like folk dance competitions, Baisakhi celebrations, and heritage exhibitions, interactive workshops, and collaborative fests with other societies, offering students a platform to express, perform, and preserve our rich cultural legacy.",
   items: [
     {
       id: "gurpurab",
       title: "Gurpurab",
       description: "",
       href: "/events?event=5",
-      image:
+      image:  
         "Gurupurab25.jpg",
     },
     {
