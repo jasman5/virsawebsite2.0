@@ -37,41 +37,30 @@ const TimelineGallery: React.FC<TimelineGalleryProps> = ({ onYearChange }) => {
   }, []);
 
   const items: TimelineItem[] = [
+    
     {
-      year: "2020",
+      year: "2025",
       title: "Our nice super title",
       text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      imageUrl: "https://unsplash.it/1920/500?image=11"
+      imageUrl: " mela4.jpeg"
     },
     {
-      year: "2021",
+      year: "2024",
       title: "Our nice super title",
       text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      imageUrl: "https://unsplash.it/1920/500?image=12"
-    },
-    {
-      year: "2022",
-      title: "Our nice super title",
-      text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      imageUrl: "https://i.imgur.com/U5eQBv0.jpg"
+      imageUrl: " mela7.jpeg"
     },
     {
       year: "2023",
-      title: "Our nice super title",
+      title: "a good year indeed!!",
       text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       imageUrl: "mela.jpeg"
     },
     {
-      year: "2024",
-      title: "a good year indeed!!",
-      text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      imageUrl: "mela7.jpeg"
-    },
-    {
-      year: "2025",
+      year: "2022",
       title: "A great start to the year!!",
       text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      imageUrl: "mela4.jpeg"
+      imageUrl: "https://i.imgur.com/U5eQBv0.jpg"
     }
   ];
 

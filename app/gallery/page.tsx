@@ -7,7 +7,7 @@ import GalleryView from '../components/GalleryView';
 import { FooterSection } from '../components/footer-section';
 
 const GalleryPage = () => {
-  const [selectedYear, setSelectedYear] = useState('2011');
+  const [selectedYear, setSelectedYear] = useState('2025');
 
   return (
     <>

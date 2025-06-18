@@ -14,10 +14,11 @@ interface GalleryImage {
 }
 
 interface GalleryViewProps {
-  selectedYear: string;
+  selectedYear?: string;
 }
 
-const GalleryView: React.FC<GalleryViewProps> = ({ selectedYear }) => {
+const GalleryView: React.FC<GalleryViewProps> = ({ selectedYear = '2025' }) => {
+  // console.log('Selected year:', selectedYear);
   const [isTouchDevice, setIsTouchDevice] = useState(false);
   const [galleryImages, setGalleryImages] = useState<GalleryImage[]>([]);
 
@@ -25,22 +26,7 @@ const GalleryView: React.FC<GalleryViewProps> = ({ selectedYear }) => {
   useEffect(() => {
     // Define custom images for each year
     const yearToImages: Record<string, Array<{url: string, caption: string}>> = {
-      '2020': [
-        { url: 'photo.jpg', caption: 'Cultural Showcase 2020' },
-        { url: 'http://imageshack.com/f/pozeHu8dj', caption: 'Dance Performance 2020' },
-        { url: 'https://imageshack.com/i/pnP9eTifj', caption: 'Chabeel 2020' },
-        { url: 'photo.jpg', caption: 'Gurpurab 2020' },
-        { url: 'photo.jpg', caption: 'Team 2020' },
-        { url: 'https://imageshack.com/i/pmToLPufj', caption: 'Closing Ceremony 2020' },
-      ],
-      '2021': [
-        { url: 'photo.jpg', caption: 'Cultural Showcase 2021' },
-        { url: 'http://imageshack.com/f/pnSSsw4Gj', caption: 'Dance Performance 2021' },
-        { url: 'https://imageshack.com/i/pnqu4hiPj', caption: 'Chabeel 2021' },
-        { url: 'https://imageshack.com/i/poN5KuZTj', caption: 'Gurpurab 2021' },
-        { url: 'photo.jpg', caption: 'Mela 2021' },
-        { url: 'photo.jpg', caption: 'Closing Ceremony 2021' },
-      ],
+      
       '2022': [
         { url: 'https://i.imgur.com/Fovvwzu.jpg', caption: 'Cultural Showcase 2022' },
         { url: 'https://imageshack.com/i/poHDAWmIj', caption: 'Dance Competition 2022' },
@@ -76,13 +62,14 @@ const GalleryView: React.FC<GalleryViewProps> = ({ selectedYear }) => {
     };
 
     // Get images for the selected year or use default
-    const yearImages = yearToImages[selectedYear] || yearToImages['2020'];
+    
+    const yearImages = yearToImages[selectedYear] || yearToImages['2025'];
     
     // Generate gallery images with dimensions
     const newGalleryImages = yearImages.map((img, index) => {
       // Create different proportions for each image
-      const heightMultiplier = Math.floor(Math.random() * 4) + 5; // 5-8
-      const widthMultiplier = Math.floor(Math.random() * 4) + 5; // 5-8
+      const heightMultiplier = (index % 4) + 5; // 5-8
+      const widthMultiplier = (index + 2) + 5; // 5-8
       
       return {
         id: index,
@@ -103,7 +90,7 @@ const GalleryView: React.FC<GalleryViewProps> = ({ selectedYear }) => {
     return () => {
       Fancybox.destroy();
     };
-  }, [selectedYear]);
+  }, [selectedYear ]);
 
   useEffect(() => {
     // Check if it's a touch device

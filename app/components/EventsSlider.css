@@ -1,33 +1,4 @@
-/* #app { height: 100% } */
-/* html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: #fff;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-} */
-/* 
-html,
-body {
-  position: relative;
-  height: 100%;
-} */
+/* EventsSlider.css - Redesigned with darker cultural theme */
 
 #app {
   display: flex;
@@ -48,44 +19,105 @@ body {
   font-size: 22px;
   font-weight: bold;
   color: #fff;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
 }
 
+.swiper-slide:hover {
+  transform: translateY(-5px);
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.slide-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  z-index: 2;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide:hover .slide-content {
+  transform: translateY(-10px);
+}
+
+.slide-title {
+  font-family: var(--font-playfair), serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.slide-description {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.8);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Cultural-themed slide colors with overlay gradients */
 .swiper-slide:nth-child(1n) {
-  background-color: rgb(206, 17, 17);
+  background-color: #5D1A1A; /* Deep maroon */
 }
 
 .swiper-slide:nth-child(2n) {
-  background-color: rgb(0, 140, 255);
+  background-color: #2C3E50; /* Dark blue */
 }
 
 .swiper-slide:nth-child(3n) {
-  background-color: rgb(10, 184, 111);
+  background-color: #1E3A2F; /* Deep forest green */
 }
 
 .swiper-slide:nth-child(4n) {
-  background-color: rgb(211, 122, 7);
+  background-color: #4A2C1A; /* Dark brown */
 }
 
 .swiper-slide:nth-child(5n) {
-  background-color: rgb(118, 163, 12);
+  background-color: #3A2449; /* Deep purple */
 }
 
 .swiper-slide:nth-child(6n) {
-  background-color: rgb(180, 10, 47);
+  background-color: #5E2129; /* Burgundy */
 }
 
 .swiper-slide:nth-child(7n) {
-  background-color: rgb(35, 99, 19);
+  background-color: #1F3438; /* Dark teal */
 }
 
 .swiper-slide:nth-child(8n) {
-  background-color: rgb(0, 68, 255);
+  background-color: #2D2D2D; /* Charcoal */
 }
 
 .swiper-slide:nth-child(9n) {
-  background-color: rgb(218, 12, 218);
+  background-color: #3C2F0E; /* Dark gold */
 }
 
-.swiper-slide:nth-child(10n) {
-  background-color: rgb(54, 94, 77);
+/* Cultural pattern overlay */
+.cultural-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  opacity: 0.1;
+  z-index: 2;
+  pointer-events: none;
 }

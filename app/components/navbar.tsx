@@ -9,9 +9,10 @@ import {
   NavbarMenu,
   NavbarMenuItem,
   Link,
-//   Button,
+  Tooltip,
 } from "@nextui-org/react";
-import Image from 'next/image'
+import Image from 'next/image';
+import { motion } from "framer-motion";
 
 export const AcmeLogo = () => {
   return (
@@ -22,6 +23,7 @@ export const AcmeLogo = () => {
       height={130}
       priority 
       unoptimized // if this is above the fold
+      className="object-contain"
     />
   );
 };
@@ -30,71 +32,59 @@ export default function App_Navbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    { name: "Home", path: "/" },
-    { name: "Gallery", path: "/gallery" },
-    { name: "Events", path: "/events" },
-    { name: "Core", path: "/core" },
-    { name: "Heads", path: "/heads" },
+    { name: "Home", path: "/", punjabi: "ਘਰ" },
+    { name: "Gallery", path: "/gallery", punjabi: "ਗੈਲਰੀ" },
+    { name: "Events", path: "/events", punjabi: "ਪ੍ਰੋਗਰਾਮ" },
+    { name: "Core", path: "/core", punjabi: "ਕੋਰ" },
+    { name: "Heads", path: "/heads", punjabi: "ਮੁਖੀ" },
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="full">
-      <NavbarContent >
+    <Navbar 
+      onMenuOpenChange={setIsMenuOpen} 
+      maxWidth="full" 
+      className="bg-black shadow-md py-1"
+    >
+      <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
         <NavbarBrand>
-          
-          <p className="font-bold text-inherit ">
-            <Link className="text-4xl" href="/"><AcmeLogo /></Link>
-          </p>
+          <Link href="/">
+            <AcmeLogo />
+          </Link>
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4 " justify="center">
-        <NavbarItem>
-          <Link className="text-2xl" color="foreground" href="/events">
-            Event
-          </Link>
-        </NavbarItem>
-        <NavbarItem >
-          <Link className="text-2xl" aria-current="page" href="/gallery">
-            Gallery
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link className="text-2xl" color="foreground" href="/core">
-            Core
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link className="text-2xl" color="foreground" href="/heads">
-            Heads
-          </Link>
-        </NavbarItem>
+      <NavbarContent className="hidden sm:flex gap-6" justify="center">
+        {menuItems.map((item, index) => (
+          <NavbarItem key={`${item.name}-${index}`}>
+            <Tooltip content={item.punjabi} placement="bottom">
+              <Link 
+                className="text-xl font-medium relative group" 
+                color="foreground" 
+                href={item.path}
+              >
+                {item.name}
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-600 transition-all group-hover:w-full"></span>
+              </Link>
+            </Tooltip>
+          </NavbarItem>
+        ))}
       </NavbarContent>
-      {/* will use Later for Forms */}
-      {/* <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
-          </Button>
-        </NavbarItem>
-      </NavbarContent> */}
-      <NavbarMenu>
+
+      <NavbarMenu className="bg-black pt-6">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item.name}-${index}`}>
             <Link
-              className="w-full"
+              className="w-full text-xl flex items-center justify-between py-2"
               color="foreground"
               href={item.path}
               size="lg"
             >
-              {item.name}
+              <span>{item.name}</span>
+              <span className="text-orange-600 text-sm">{item.punjabi}</span>
             </Link>
           </NavbarMenuItem>
         ))}
