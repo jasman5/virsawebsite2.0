@@ -105,13 +105,13 @@
   transition: 0.4s ease 1.6s;
 }
 
-:global(.swiper-slide-active) .timelineTitle {
+.timeline :global(.swiper-slide-active) .timelineTitle {
   opacity: 1;
   transform: translate3d(0, 0, 0);
   transition: 0.4s ease 1.7s;
 }
 
-:global(.swiper-slide-active) .timelineText {
+.timeline :global(.swiper-slide-active) .timelineText {
   opacity: 1;
   transform: translate3d(0, 0, 0);
   transition: 0.4s ease 1.8s;
@@ -130,7 +130,7 @@
   z-index: 1;
 }
 
-:global(.swiper-pagination)::before {
+.timeline :global(.swiper-pagination)::before {
   content: "";
   position: absolute;
   left: -30px;
@@ -140,7 +140,7 @@
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-:global(.swiper-pagination-bullet) {
+.timeline :global(.swiper-pagination-bullet) {
   width: auto;
   height: auto;
   text-align: center;
@@ -151,7 +151,7 @@
   position: relative;
 }
 
-:global(.swiper-pagination-bullet)::before {
+.timeline :global(.swiper-pagination-bullet)::before {
   content: "";
   position: absolute;
   top: 8px;
@@ -164,17 +164,17 @@
   transition: 0.2s;
 }
 
-:global(.swiper-pagination-bullet-active) {
+.timeline :global(.swiper-pagination-bullet-active) {
   color: #d4a024;
 }
 
-:global(.swiper-pagination-bullet-active)::before {
+.timeline :global(.swiper-pagination-bullet-active)::before {
   transform: scale(1);
 }
 
 /* Navigation buttons */
-:global(.swiper-button-next),
-:global(.swiper-button-prev) {
+.timeline :global(.swiper-button-next),
+.timeline :global(.swiper-button-prev) {
   background-size: 20px 20px;
   top: 15%;
   width: 20px;
@@ -185,19 +185,19 @@
   color: #d4a024 !important;
 }
 
-:global(.swiper-button-prev) {
+.timeline :global(.swiper-button-prev) {
   left: 8%;
 }
 
-:global(.swiper-button-prev):hover {
+.timeline :global(.swiper-button-prev):hover {
   transform: translateX(-3px);
 }
 
-:global(.swiper-button-next) {
+.timeline :global(.swiper-button-next) {
   right: 8%;
 }
 
-:global(.swiper-button-next):hover {
+.timeline :global(.swiper-button-next):hover {
   transform: translateX(3px);
 }
 
