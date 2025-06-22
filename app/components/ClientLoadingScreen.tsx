@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic';
 
 // Dynamically import the LoadingScreen with no SSR
 const LoadingScreen = dynamic(
-  () => import('./LoadingScrean').then(mod => mod.LoadingScreen),
+  () => import('./LoadingScreen').then(mod => mod.LoadingScreen),
   { ssr: false }
 );
 

@@ -4,7 +4,7 @@ import { Inter, Playfair_Display, Poppins } from "next/font/google";
 import "./globals.css";
 
 // Import the client component directly, but don't render it yet
-import LoadingScreen from './components/LoadingScrean';
+import LoadingScreen from './components/LoadingScreen';
 
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair",
