@@ -42,7 +42,7 @@ export default function Gallery4Demo() {
       title: "Rubaru",
       description: "An intimate cultural exchange program fostering dialogue and understanding through personal stories and shared experiences.",
       href: "/events/rubaru",
-      image: "rubaru.jpg"
+      image: "rubaru.jpeg"
     }
   ];
 
