@@ -200,11 +200,6 @@ const CoreTeam = () => {
                             <FaLinkedin size={20} />
                           </a>
                         )}
-                        {member.socialLinks?.twitter && (
-                          <a href={member.socialLinks.twitter} target="_blank" rel="noopener noreferrer" className="text-white hover:text-amber-300 transition-colors">
-                            <FaTwitter size={20} />
-                          </a>
-                        )}
                       </div>
                     </div>
                   </div>
