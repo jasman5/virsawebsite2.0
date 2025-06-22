@@ -230,7 +230,7 @@
     margin: 0;
   }
 
-  :global(.swiper-pagination) {
+  .timeline :global(.swiper-pagination) {
     display: flex;
   }
 }
