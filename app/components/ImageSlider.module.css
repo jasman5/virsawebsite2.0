@@ -65,6 +65,9 @@
 .content .title {
   font-family: 'arial-black';
   text-transform: uppercase;
+  font-weight: 200;
+  font-size: 2rem;
+  color: rgb(239, 163, 108);
 }
 
 .content .description {

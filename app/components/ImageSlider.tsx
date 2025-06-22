@@ -39,7 +39,7 @@ const ImageSlider: React.FC = () => {
       id: 4,
       title: "Chabeel",
       description: "Every summer, Virsa hosts a vibrant chabeel to honor Guru Arjan Dev Ji and celebrate the rich essence of Sikh culture. Chabeel is a traditional Punjabi summer drink, known for its cooling and refreshing qualities.",
-      imageUrl: "chabeel1.JPeG"
+      imageUrl: "chabeel1.jpeg"
     },
     {
       id: 5,
@@ -109,7 +109,7 @@ const ImageSlider: React.FC = () => {
             <div className={styles.content}>
               <h2 className={styles.title}>{item.title}</h2>
               <p className={styles.description}>{item.description}</p>
-              <button>Read More</button>
+              {/* <button>Read More</button> */}
             </div>
           </li>
         ))}

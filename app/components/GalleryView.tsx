@@ -30,17 +30,17 @@ const GalleryView: React.FC<GalleryViewProps> = ({ selectedYear = '2025' }) => {
       '2022': [
         { url: 'https://i.imgur.com/Fovvwzu.jpg', caption: 'Cultural Showcase 2022' },
         { url: 'https://imageshack.com/i/poHDAWmIj', caption: 'Dance Competition 2022' },
-        { url: 'chabeel2.jpg', caption: 'Chabeel 2022' },
+        { url: 'chabeel2.jpeg', caption: 'Chabeel 2022' },
         { url: 'https://imageshack.com/i/pnrUdczjj', caption: 'Gurupurab 2022' },
         { url: 'https://imagizer.imageshack.com/img923/6546/BDR0TD.jpg', caption: 'Society fair 2022' },
         { url: 'https://imagizer.imageshack.com/img922/597/uM6hUG.jpg', caption: 'Turban tying 2022' },
       ],
       '2023': [
-        { url: 'mela9.jpg', caption: 'Cultural Showcase 2023' },
+        { url: 'mela9.jpeg', caption: 'Cultural Showcase 2023' },
         { url: 'shaame.jpeg', caption: 'shaame e virasat 2023' },
-        { url: 'chabeel2.jpg', caption: 'Chabeel 2023' },
+        { url: 'chabeel2.jpeg', caption: 'Chabeel 2023' },
         { url: 'gur3.jpeg', caption: 'Gurupurab 2023' },
-        { url: 'mela23.jpg', caption: 'team 2023' },
+        { url: 'mela23.jpeg', caption: 'team 2023' },
         { url: 'team.jpeg', caption: 'Closing Ceremony 2023' },
       ],
       '2024': [

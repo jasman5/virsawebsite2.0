@@ -20,26 +20,26 @@ interface TeamMember {
 const coreTeamMembers: TeamMember[] = [
   {
     id: 1,
-    name: 'Harpreet Singh',
-    imageUrl: '/team.jpeg',
+    name: 'Jasman Kaur',
+    imageUrl: 'https://imagizer.imageshack.com/img922/9149/T5Jr7M.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com',
+      instagram: 'https://www.instagram.com/jasmann_05?igsh=MTh3ZXljYm85YTNq',
+      linkedin: 'https://www.linkedin.com/in/jasman-kaur-191988278',
     }
   },
   {
     id: 2,
-    name: 'Simran Kaur',
-    imageUrl: '/team3.jpeg',
+    name: 'Pooja Bisht',
+    imageUrl: 'https://imagizer.imageshack.com/img923/206/stVTzI.jpg',
     socialLinks: {
       instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/pooja-bisht-987662315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
     }
   },
   {
     id: 3,
-    name: 'Gurpreet Singh',
-    imageUrl: '/team4.jpeg',
+    name: 'Harshit Kamra',
+    imageUrl: 'https://imagizer.imageshack.com/img922/5/8jQIv2.jpg',
     socialLinks: {
       instagram: 'https://instagram.com',
       linkedin: 'https://linkedin.com'
@@ -47,8 +47,8 @@ const coreTeamMembers: TeamMember[] = [
   },
   {
     id: 4,
-    name: 'Jaspreet Kaur',
-    imageUrl: '/team5.PNG',
+    name: 'Trishti',
+    imageUrl: 'https://imagizer.imageshack.com/img922/5997/8JKEnv.jpg',
     socialLinks: {
       instagram: 'https://instagram.com',
       linkedin: 'https://linkedin.com'
@@ -56,8 +56,8 @@ const coreTeamMembers: TeamMember[] = [
   },
   {
     id: 5,
-    name: 'Manpreet Singh',
-    imageUrl: '/team.jpeg',
+    name: 'Arshia',
+    imageUrl: 'https://imagizer.imageshack.com/img924/8975/5r6xTG.jpg',
     socialLinks: {
       instagram: 'https://instagram.com',
       linkedin: 'https://linkedin.com'
@@ -90,6 +90,251 @@ const coreTeamMembers: TeamMember[] = [
       linkedin: 'https://linkedin.com'
     }
   },
+  {
+    id: 9,
+    name: 'Rahul',
+    imageUrl: '/team6.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 10,
+    name: 'Rohit',
+    imageUrl: '/team7.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 11,
+    name: 'Sahil',
+    imageUrl: '/team8.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 12,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 13,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 14,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 15,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 16,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 17,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 18,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 19,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 20,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 21,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 22,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 23,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 24,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 25,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 26,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 27,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 28,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 29,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 30,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 31,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 32,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 33,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 34,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+  {
+    id: 35,
+    name: 'Sai',
+    imageUrl: '/team9.jpeg',
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com'
+    }
+  },
+
+
 ];
 
 const CoreTeam = () => {

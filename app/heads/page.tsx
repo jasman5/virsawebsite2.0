@@ -216,7 +216,7 @@ const Heads = () => {
       name: "Amrita Kaur",
       position: "General Secretary",
       description: "Leading our cultural initiatives with passion and dedication to preserve and promote Punjabi heritage through innovative events and programs.",
-      imageUrl: "/team3.jpeg",
+      imageUrl: "https://imagizer.imageshack.com/img923/9174/1kpZQD.jpg",
       instagramUrl: "https://instagram.com",
       linkedinUrl: "https://linkedin.com"
     },
@@ -224,7 +224,7 @@ const Heads = () => {
       name: "Gurpreet Singh",
       position: "General Secretary",
       description: "Coordinating events and managing our team operations with a focus on authentic cultural representation and community engagement.",
-      imageUrl: "/team.jpeg",
+      imageUrl: "https://imagizer.imageshack.com/img923/9018/j0ZZ7R.jpg",
       instagramUrl: "https://instagram.com",
       linkedinUrl: "https://linkedin.com"
     },
@@ -232,7 +232,7 @@ const Heads = () => {
       name: "Harjot Singh",
       position: "General Secretary",
       description: "Preserving and promoting authentic Punjabi traditions while developing strategic partnerships to expand our cultural impact.",
-      imageUrl: "/team4.jpeg",
+      imageUrl: "https://imagizer.imageshack.com/img922/5060/796gae.jpg",
       instagramUrl: "https://instagram.com",
       linkedinUrl: "https://linkedin.com"
     }
@@ -256,13 +256,6 @@ const Heads = () => {
           imageUrl: "/team.jpeg",
           instagramUrl: "https://instagram.com",
           linkedinUrl: "https://linkedin.com"
-        },
-        {
-          name: "Jaspreet Kaur",
-          position: "Joint Secretary",
-          imageUrl: "/team5.PNG",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
         }
       ]
     },
@@ -280,13 +273,6 @@ const Heads = () => {
           name: "Simran Kaur",
           position: "Technical Head",
           imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
-        },
-        {
-          name: "Harpreet Singh",
-          position: "Technical Head",
-          imageUrl: "/team.jpeg",
           instagramUrl: "https://instagram.com",
           linkedinUrl: "https://linkedin.com"
         }
@@ -310,7 +296,263 @@ const Heads = () => {
           linkedinUrl: "https://linkedin.com"
         }
       ]
-    }
+    },
+    {
+      title: "Creativity Heads",
+      heads: [
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Gurjot Singh",
+          position: "Content Head",
+          imageUrl: "/team.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+      ]
+    },
+    {
+      title: "Cultural Heads",
+      heads: [
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Gurjot Singh",
+          position: "Content Head",
+          imageUrl: "/team.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+      ]
+    },
+    {
+      title: "Design Heads",
+      heads: [
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Gurjot Singh",
+          position: "Content Head",
+          imageUrl: "/team.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        }
+      ]
+    },
+    {
+      title: "Media Heads",
+      heads: [
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Gurjot Singh",
+          position: "Content Head",
+          imageUrl: "/team.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        }
+      ]
+    },
+    {
+      title: "Discipline Heads",
+      heads: [
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Gurjot Singh",
+          position: "Content Head",
+          imageUrl: "/team.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+      ]
+    },
+    {
+      title: "Documentation Heads",
+      heads: [
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        }
+      ]
+    },
+    {
+      title: "Finance Heads",
+      heads: [
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Gurjot Singh",
+          position: "Content Head",
+          imageUrl: "/team.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        }
+      ]
+    },
+    {
+      title: "Gurpurab Heads",
+      heads: [
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Gurjot Singh",
+          position: "Content Head",
+          imageUrl: "/team.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        }
+      ]
+    },
+    {
+      title: "Hospitality Heads",
+      heads: [
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Gurjot Singh",
+          position: "Content Head",
+          imageUrl: "/team.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        }
+      ]
+    },
+    {
+      title: "Marketing Heads",
+      heads: [
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Gurjot Singh",
+          position: "Content Head",
+          imageUrl: "/team.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+      ]
+    },
+    {
+      title: "Publicity Heads",
+      heads: [
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Gurjot Singh",
+          position: "Content Head",
+          imageUrl: "/team.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        }
+      ]
+    },
+    {
+      title: "Logistics Heads",
+      heads: [
+        {
+          name: "Navjot Kaur",
+          position: "Content Head",
+          imageUrl: "/team3.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Gurjot Singh",
+          position: "Content Head",
+          imageUrl: "/team.jpeg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://linkedin.com"
+        }
+      ]
+    },
   ];
 
   return (
