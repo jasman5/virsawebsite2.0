@@ -100,7 +100,7 @@ const FooterSection: React.FC = () => {
               <TooltipProvider>
                 <Tooltip>
                   <TooltipTrigger asChild>
-                    <a href="https://facebook.com/virsasociety" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.facebook.com/VirsaTIET/" target="_blank" rel="noopener noreferrer">
                       <Button variant="outline" size="icon" className="h-8 w-8 rounded-full bg-background/80 backdrop-blur-sm hover:bg-primary/10 hover:text-primary">
                         <Facebook className="h-3.5 w-3.5" />
                         <span className="sr-only">Facebook</span>
@@ -127,7 +127,8 @@ const FooterSection: React.FC = () => {
                   </TooltipContent>
                 </Tooltip>
               </TooltipProvider>
-              <TooltipProvider>
+              {/* Don't have twitter */}
+              {/* <TooltipProvider>
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <a href="https://twitter.com/virsasociety" target="_blank" rel="noopener noreferrer">
@@ -141,11 +142,11 @@ const FooterSection: React.FC = () => {
                     <p>Follow us on Twitter</p>
                   </TooltipContent>
                 </Tooltip>
-              </TooltipProvider>
+              </TooltipProvider> */}
               <TooltipProvider>
                 <Tooltip>
                   <TooltipTrigger asChild>
-                    <a href="https://linkedin.com/company/virsa-society" target="_blank" rel="noopener noreferrer">
+                    <a href="http://linkedin.com/company/ssa-virsa/" target="_blank" rel="noopener noreferrer">
                       <Button variant="outline" size="icon" className="h-8 w-8 rounded-full bg-background/80 backdrop-blur-sm hover:bg-primary/10 hover:text-primary">
                         <Linkedin className="h-3.5 w-3.5" />
                         <span className="sr-only">LinkedIn</span>

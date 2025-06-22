@@ -99,7 +99,7 @@
 }
 
 /* Active slide animations */
-:global(.swiper-slide-active) .timelineYear {
+.timeline :global(.swiper-slide-active) .timelineYear {
   opacity: 1;
   transform: translate3d(0, 0, 0);
   transition: 0.4s ease 1.6s;
@@ -118,7 +118,7 @@
 }
 
 /* Pagination styling */
-:global(.swiper-pagination) {
+.timeline :global(.swiper-pagination) {
   right: 15% !important;
   height: 100%;
   display: none;
