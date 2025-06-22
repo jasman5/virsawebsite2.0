@@ -188,7 +188,7 @@ const CoreTeam = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-amber-900/90 via-amber-800/40 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
                     <div>
-                      <p className="text-white/90 text-sm mb-4">{member.description}</p>
+                      {/* Removed description since it's not defined in TeamMember interface */}
                       <div className="flex space-x-4">
                         {member.socialLinks?.instagram && (
                           <a href={member.socialLinks.instagram} target="_blank" rel="noopener noreferrer" className="text-white hover:text-amber-300 transition-colors">
@@ -211,7 +211,7 @@ const CoreTeam = () => {
                 </div>
                 <div className="p-6">
                   <h3 className="card-title text-gray-900 mb-1">{member.name}</h3>
-                  <p className="text-amber-600 font-medium text-sm mb-2">{member.position}</p>
+                  <p className="text-amber-600 font-medium text-sm mb-2"></p>
                   <div className="w-12 h-1 bg-amber-400 rounded-full"></div>
                 </div>
               </motion.div>
