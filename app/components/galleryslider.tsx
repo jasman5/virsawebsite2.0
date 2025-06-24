@@ -8,7 +8,7 @@ import { ExternalLink } from 'lucide-react';
 
 export default function Gallery4Demo() {
   // Enhanced demo data with more descriptive content and consistent image paths
-  const demoData = [
+  const demoData = [ 
     {
       id: "gurpurab",
       title: "Gurpurab",
