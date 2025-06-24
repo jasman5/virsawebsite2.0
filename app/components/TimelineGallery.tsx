@@ -10,8 +10,8 @@ import styles from './TimelineGallery.module.css';
 
 interface TimelineItem {
   year: string;
-  title: string;
-  text: string;
+  // title: string;
+  // text: string;
   imageUrl: string;
 }
 
@@ -40,26 +40,26 @@ const TimelineGallery: React.FC<TimelineGalleryProps> = ({ onYearChange }) => {
     
     {
       year: "2025",
-      title: "Our nice super title",
-      text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      // title: "Our nice super title",
+      // text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       imageUrl: " mela4.jpeg"
     },
     {
       year: "2024",
-      title: "Our nice super title",
-      text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      // title: "Our nice super title",
+      // text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       imageUrl: " mela7.jpeg"
     },
     {
       year: "2023",
-      title: "a good year indeed!!",
-      text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      // title: "a good year indeed!!",
+      // text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       imageUrl: "mela.jpeg"
     },
     {
       year: "2022",
-      title: "A great start to the year!!",
-      text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      // title: "A great start to the year!!",
+      // text: "Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       imageUrl: "https://i.imgur.com/U5eQBv0.jpg"
     }
   ];

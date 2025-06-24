@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 interface TimelineItem {
   year: string;
   title: string;
-  text: string;
+  // text: string;
   imageUrl: string;
 }
 

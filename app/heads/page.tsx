@@ -336,7 +336,7 @@ const Heads = () => {
         {
           name: "Sukhman Singh",
           position: "Cultural Head",
-          imageUrl: "",
+          imageUrl: "/",
           instagramUrl: "https://www.instagram.com/sukhmxnnn_/",
           linkedinUrl: "https://www.linkedin.com/in/sukhman-singh-323231253"
         },
