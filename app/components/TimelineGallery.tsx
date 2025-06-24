@@ -99,8 +99,8 @@ const TimelineGallery: React.FC<TimelineGalleryProps> = ({ onYearChange }) => {
             >
               <div className={styles.swiperSlideContent}>
                 <span className={styles.timelineYear}>{item.year}</span>
-                <h4 className={styles.timelineTitle}>{item.title}</h4>
-                <p className={styles.timelineText}>{item.text}</p>
+                {/* <h4 className={styles.timelineTitle}>{item.title}</h4> */}
+                {/* <p className={styles.timelineText}>{item.text}</p> */}
               </div>
             </SwiperSlide>
           ))}
