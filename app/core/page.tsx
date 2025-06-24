@@ -24,11 +24,57 @@ const coreTeamMembers: TeamMember[] = [
     imageUrl: 'https://imagizer.imageshack.com/img922/9149/T5Jr7M.jpg',
     socialLinks: {
       instagram: 'https://www.instagram.com/jasmann_05?igsh=MTh3ZXljYm85YTNq',
-      linkedin: 'https://www.linkedin.com/in/jasman-kaur-191988278',
+      linkedin: 'https://www.linkedin.com/in/jasman05',
     }
   },
   {
     id: 2,
+    name: 'Harshleen',
+    imageUrl: 'https://imagizer.imageshack.com/img924/1177/hBycxa.jpg',
+    socialLinks: {
+      linkedin: 'https://www.linkedin.com/in/harshleen-kaur-8196042b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      instagram: 'https://www.instagram.com/harshleen_kaur08?igsh=NGlpODd2djBub2Qz&utm_source=qr',
+    }
+  },
+  {
+    id: 3,
+    name: 'Harshit Kamra',
+    imageUrl: 'https://imagizer.imageshack.com/img922/5/8jQIv2.jpg',
+    socialLinks: {
+      linkedin: 'https://www.linkedin.com/in/harshit-kamra-7a2aab284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      instagram: 'https://www.instagram.com/harshit._.kamra?igsh=aGZxdW10ZnoycXlz',
+    
+    }
+  },
+  {
+    id: 4,
+    name: 'Trishti',
+    imageUrl: 'https://imagizer.imageshack.com/img922/5997/8JKEnv.jpg',
+    socialLinks: {
+      linkedin: 'https://www.linkedin.com/in/trishti-singla-946703274?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      instagram: 'https://www.instagram.com/trishti_singla?igsh=MTludmd1M3MxdGl0bA==',
+    }
+  },
+  {
+    id: 5,
+    name: 'Maheep Singh Dhanju',
+    imageUrl: 'https://imagizer.imageshack.com/img924/4157/dL2Ppt.png',
+    socialLinks: {
+      linkedin: 'https://www.linkedin.com/in/maheep-singh-dhanju-b5434b28b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      instagram: 'https://www.instagram.com/mxdhnju?igsh=YzE2cmd2eHUyM3c0&utm_source=qr'
+    }
+  },
+  {
+    id: 6,
+    name: 'Meharpreet Singh',
+    imageUrl: 'https://imagizer.imageshack.com/img924/6632/ewNEBr.jpg',
+    socialLinks: {
+      linkedin: 'https://www.linkedin.com/in/meharpreet-singh-594109244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      instagram: 'https://www.instagram.com/_mehar96?igsh=MWw2NWxvb3c5ajl2cg%3D%3D&utm_source=qr'
+    }
+  },
+  {
+    id: 7,
     name: 'Pooja Bisht',
     imageUrl: 'https://imagizer.imageshack.com/img923/206/stVTzI.jpg',
     socialLinks: {
@@ -37,300 +83,258 @@ const coreTeamMembers: TeamMember[] = [
     }
   },
   {
-    id: 3,
-    name: 'Harshit Kamra',
-    imageUrl: 'https://imagizer.imageshack.com/img922/5/8jQIv2.jpg',
-    socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
-    }
-  },
-  {
-    id: 4,
-    name: 'Trishti',
-    imageUrl: 'https://imagizer.imageshack.com/img922/5997/8JKEnv.jpg',
-    socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
-    }
-  },
-  {
-    id: 5,
+    id: 8,
     name: 'Arshia',
     imageUrl: 'https://imagizer.imageshack.com/img924/8975/5r6xTG.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
-    }
-  },
-  {
-    id: 6,
-    name: 'Navjot Kaur',
-    imageUrl: '/team3.jpeg',
-    socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
-    }
-  },
-  {
-    id: 7,
-    name: 'Rajinder Singh',
-    imageUrl: '/team4.jpeg',
-    socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
-    }
-  },
-  {
-    id: 8,
-    name: 'Amrit Kaur',
-    imageUrl: '/team5.PNG',
-    socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/arshia-5a56aa295',
+      instagram: 'https://www.instagram.com/arshia._08?igsh=ZjllbTBua2QzcGo3',
     }
   },
   {
     id: 9,
-    name: 'Rahul',
-    imageUrl: '/team6.jpeg',
+    name: 'Pahuldeep Singh Bajwa',
+    imageUrl: 'https://imagizer.imageshack.com/img922/4932/7bQhVz.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'http://linkedin.com/in/pahul-bajwa-313524304',
+      instagram: 'https://www.instagram.com/pahuldeepbajwa?igsh=Z25xcjJubjVrd3Zs',
     }
   },
   {
     id: 10,
-    name: 'Rohit',
-    imageUrl: '/team7.jpeg',
+    name: 'Udaypartap Singh Brar',
+    imageUrl: 'https://imagizer.imageshack.com/img923/7152/vJ7dto.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/udaypartap-singh-586559304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      instagram: 'https://www.instagram.com/udaypartap.singh.brar?igsh=enB0OG45cWRvNWFl',
     }
   },
   {
     id: 11,
-    name: 'Sahil',
-    imageUrl: '/team8.jpeg',
+    name: 'Manleen Kaur',
+    imageUrl: 'https://imagizer.imageshack.com/img922/3254/ZgFCos.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'http://linkedin.com/in/manleen-kaur-3a9b3029a',
+      instagram: 'https://www.instagram.com/manleenbajwa?igsh=aGV1ZjVuMmxlMngx',
     }
   },
   {
     id: 12,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Sahibnoor Kaur',
+    imageUrl: 'https://imagizer.imageshack.com/img923/1623/BBKn4S.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/sahibnoor-kaur-388943327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      instagram: 'https://www.instagram.com/sahibnoor._kaur?igsh=aWkxZ3JuNjc4ODdr',
     }
   },
   {
     id: 13,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Jahanvi Singhal',
+    imageUrl: 'https://imagizer.imageshack.com/img923/3721/MzmOxU.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/jahanvi-singhal-33981b29a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      instagram: 'https://www.instagram.com/jahanvisinghal_15?igsh=MXh2dTRuM3RkNndlbQ==',
     }
   },
   {
     id: 14,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Japneet',
+    imageUrl: 'https://imagizer.imageshack.com/img923/5948/BXDojA.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/japneet-kaur-8a89a825a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      instagram: 'https://www.instagram.com/japneetsoni_?igsh=YWhmdzBhajBha3o5&utm_source=qr',
     }
   },
+
   {
-    id: 15,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    id:15,
+    name: 'Pratham Garg',
+    imageUrl: 'https://imagizer.imageshack.com/img924/8923/PHMecH.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/pratham-garg-4ab560288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      instagram: 'https://www.instagram.com/prathamm.garggg?igsh=MWRrOXNwYjM5bGkzNw%3D%3D&utm_source=qr',
     }
   },
   {
     id: 16,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Dapinder Singh',
+    imageUrl: 'https://imagizer.imageshack.com/img923/6814/4zjPzl.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://linkedin.com',
+      instagram: 'https://www.instagram.com/dapindersinghbadesha?igsh=MWMwZnhzb2dsdnZxbg%3D%3D&utm_source=qr',
     }
   },
   {
     id: 17,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Dhanveer Singh',
+    imageUrl: 'https://imagizer.imageshack.com/img924/3048/L5pa29.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/dhanveer-singh-53b058293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      instagram: 'https://www.instagram.com/dhanveersingh1481?igsh=NGVhN2U2NjQ0Yg==',
     }
   },
   {
     id: 18,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Harnoor Kaur',
+    imageUrl: 'https://imagizer.imageshack.com/img923/5418/Vh6ua3.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/harnoor-kaur-756b53314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      instagram: 'https://www.instagram.com/kaurx.harnoor?igsh=MTd6aGl6cGg4Zmd5dA==',
     }
   },
   {
     id: 19,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Jugadh Singh',
+    imageUrl: 'https://imagizer.imageshack.com/img923/3941/2aR4Gb.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
+      instagram: 'https://www.instagram.com/jugadh_singh?igsh=OXphZGttdW9wanRy',
       linkedin: 'https://linkedin.com'
     }
   },
   {
     id: 20,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Gurkirat Singh',
+    imageUrl: 'https://imagizer.imageshack.com/img923/4139/gtk7De.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/gurkirat-singh-60639a2a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      instagram: 'https://www.instagram.com/sxndhugurkirat?igsh=MWNrcGt1YWxhNjdmMw==',
     }
   },
   {
     id: 21,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Nityam',
+    imageUrl: 'https://imagizer.imageshack.com/img924/1775/LOldyJ.jpg',
     socialLinks: {
       instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/nityam-%E2%80%8E-%E2%80%8E-1b01ab267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
     }
+   
   },
   {
     id: 22,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Hridyum Bindal',
+    imageUrl: 'https://imagizer.imageshack.com/img924/8225/2V6CBB.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/hridyum-bindal-772383312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      instagram: 'https://www.instagram.com/hridyum_?igsh=c2psYXFoZDI1dzZi',
     }
   },
   {
     id: 23,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Ishanpreet Singh',
+    imageUrl: 'https://imagizer.imageshack.com/img924/6384/ojS7I4.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/ishanpreet-singh-4ab0aa26b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      instagram: 'https://www.instagram.com/ishaanpreet?igsh=MTZybng0b2I5cDloMA%3D%3D&utm_source=qr',
     }
   },
   {
     id: 24,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Balkirat Singh',
+    imageUrl: 'https://imagizer.imageshack.com/img922/7052/KrJdru.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://linkedin.com',
+      instagram:''
     }
   },
   {
     id: 25,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Shehbaz Singh Sidhu',
+    imageUrl: 'https://imagizer.imageshack.com/img922/4065/a5RWhe.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/shehbaz-ssidhu/',
+      instagram: 'https://www.instagram.com/sidhushehbaz?igsh=ZXFhemY2dzdpaG5p&utm_source=qr',
     }
   },
   {
     id: 26,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Harnoor Kaur',
+    imageUrl: 'https://imagizer.imageshack.com/img924/1218/ArWtei.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/harnoor-kaur-36a0a9272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      instagram: 'https://www.instagram.com/harnoor7024?igsh=bG9uc3d3MnBzc2Zn&utm_source=qr',
     }
   },
   {
     id: 27,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Amitoj Singh',
+    imageUrl: 'https://imagizer.imageshack.com/img922/9017/NSlPm5.png',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/amitoj-singh-65424b287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      instagram: 'https://www.instagram.com/amitojammy04?igsh=MWJjcm9lZGl1eGN0aA%3D%3D&utm_source=qr',
     }
   },
   {
     id: 28,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Jasmine Kaur',
+    imageUrl: 'https://imagizer.imageshack.com/img922/8199/JxqZpN.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/jasmine-kaur-765051297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      instagram: 'https://www.instagram.com/jasmine_28kaur?igsh=eTZqeXh0dmF0NGl5&utm_source=qr',
     }
   },
   {
     id: 29,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Manjot Singh Gill',
+    imageUrl: 'https://imagizer.imageshack.com/img922/3294/VrYSLi.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/manjot-singh-gill-54b08b29a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      instagram: 'https://www.instagram.com/manjot.gill62?igsh=ZGR2NXB5Zm55YTd4',
     }
   },
   {
     id: 30,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Khushveen Sadiora',
+    imageUrl: 'https://imagizer.imageshack.com/img922/1597/KP6vWz.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
-    }
+      linkedin: 'https://www.linkedin.com/in/khushveen-sadiora-399905320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      instagram: 'https://www.instagram.com/sadiora_khushveen?igsh=MWloaWl2ZHBpeGF6ag==',
+    },
   },
   {
     id: 31,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Prabhjot Singh',
+    imageUrl: 'https://imagizer.imageshack.com/img924/7029/8lo5Tt.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'http://www.linkedin.com/in/prabhjotsingh84',
+      instagram: 'https://www.instagram.com/prabh84_/',
     }
+ 
   },
   {
     id: 32,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Jasmeen',
+    imageUrl: 'https://imagizer.imageshack.com/img922/4266/bH6cXr.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      instagram: 'https://www.instagram.com/_jasmeen_25?igsh=MXh3YjZvd2lkMGVyeg%3D%3D&utm_source=qr',
     }
   },
   {
     id: 33,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Tulsi Relia',
+    imageUrl: 'https://imagizer.imageshack.com/img922/7030/FP6bXh.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/tulsi-relia?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      instagram: 'https://www.instagram.com/tulsi_relia?igsh=Y3lrMGh0bWtmeTdi',
     }
   },
   {
     id: 34,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Divyanshu Gupta',
+    imageUrl: 'https://imagizer.imageshack.com/img924/2930/HJ860K.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/divyanshu-gupta-649773279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+      instagram: 'https://www.instagram.com/divyanshu.1302?igsh=azdxdnM4b3V4N2ky&utm_source=qr',
     }
   },
   {
     id: 35,
-    name: 'Sai',
-    imageUrl: '/team9.jpeg',
+    name: 'Dhruv Bansal',
+    imageUrl: 'https://imagizer.imageshack.com/img922/5937/IFVPW0.jpg',
     socialLinks: {
-      instagram: 'https://instagram.com',
-      linkedin: 'https://linkedin.com'
+      linkedin: 'https://www.linkedin.com/in/dhruv-bansal-837587269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      instagram: 'https://www.instagram.com/ik.dhruva5212?igsh=MXVzcGVoNGEwMDhjaw==',
+    
     }
   },
 

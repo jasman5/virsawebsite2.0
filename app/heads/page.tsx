@@ -213,28 +213,28 @@ const Heads = () => {
   // General Secretaries
   const genSecs: GenSecCardProps[] = [
     {
-      name: "Amrita Kaur",
+      name: "Rajvir Singh",
       position: "General Secretary",
       description: "Leading our cultural initiatives with passion and dedication to preserve and promote Punjabi heritage through innovative events and programs.",
       imageUrl: "https://imagizer.imageshack.com/img923/9174/1kpZQD.jpg",
-      instagramUrl: "https://instagram.com",
-      linkedinUrl: "https://linkedin.com"
+      instagramUrl: "https://www.instagram.com/rajvir8702?igsh=ZWE2dXBobG95Ymds",
+      linkedinUrl: "https://www.linkedin.com/in/rajvir-singh8702/"
     },
     {
-      name: "Gurpreet Singh",
+      name: "Aastha Verma",
       position: "General Secretary",
       description: "Coordinating events and managing our team operations with a focus on authentic cultural representation and community engagement.",
       imageUrl: "https://imagizer.imageshack.com/img923/9018/j0ZZ7R.jpg",
-      instagramUrl: "https://instagram.com",
-      linkedinUrl: "https://linkedin.com"
+      instagramUrl: "https://www.instagram.com/aasthaes?igsh=MTUycGp1bG1janVudw==",
+      linkedinUrl: "https://www.linkedin.com/in/aastha-verma-404985229/"
     },
     {
-      name: "Harjot Singh",
+      name: "Naman Garg",
       position: "General Secretary",
       description: "Preserving and promoting authentic Punjabi traditions while developing strategic partnerships to expand our cultural impact.",
       imageUrl: "https://imagizer.imageshack.com/img922/5060/796gae.jpg",
-      instagramUrl: "https://instagram.com",
-      linkedinUrl: "https://linkedin.com"
+      instagramUrl: "https://www.instagram.com/naman_garg09?igsh=MWU4amV3eXU2bTl5ZA==",
+      linkedinUrl: "https://www.linkedin.com/in/naman-garg-745501290/"
     }
   ];
 
@@ -246,15 +246,15 @@ const Heads = () => {
         {
           name: "Anureet Kaur",
           position: "Joint Secretary",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          imageUrl: "https://imagizer.imageshack.com/img924/1561/yKutpN.jpg",
+          instagramUrl: "https://www.instagram.com/anureeet.cheema?igsh=YXZ5cWNlb2hlcDB0",
+          linkedinUrl: "https://www.linkedin.com/in/anureet-cheema-87ab43232/"
         },
         {
-          name: "Manpreet Singh",
+          name: "Adamya Sharma",
           position: "Joint Secretary",
-          imageUrl: "/team.jpeg",
-          instagramUrl: "https://instagram.com",
+          imageUrl: "https://imagizer.imageshack.com/img924/1051/LwVhxK.jpg",
+          instagramUrl: "https://instagram.com/sharma_adamya?igshid=MzMyNGUyNmU2YQ==",
           linkedinUrl: "https://linkedin.com"
         }
       ]
@@ -263,17 +263,17 @@ const Heads = () => {
       title: "Technical Heads",
       heads: [
         {
-          name: "Rajinder Singh",
+          name: "Raghav",
           position: "Technical Head",
-          imageUrl: "/team4.jpeg",
-          instagramUrl: "https://instagram.com",
+          imageUrl: "https://imagizer.imageshack.com/img922/8332/0gaaTk.jpg",
+          instagramUrl: "https://www.instagram.com/khedar._/",
           linkedinUrl: "https://linkedin.com"
         },
         {
-          name: "Simran Kaur",
+          name: "Avya",
           position: "Technical Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
+          imageUrl: "https://imagizer.imageshack.com/img922/8215/KHrbqS.jpg",
+          instagramUrl:"https://www.instagram.com/avyaa_9/",
           linkedinUrl: "https://linkedin.com"
         }
       ]
@@ -282,17 +282,17 @@ const Heads = () => {
       title: "Content Heads",
       heads: [
         {
-          name: "Navjot Kaur",
+          name: "Ira Dahiya",
           position: "Content Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          imageUrl: "https://imagizer.imageshack.com/img922/7845/SEbxwF.jpg",
+          instagramUrl: "https://instagram.com/iraaaaaaa.22",
+          linkedinUrl: "https://www.linkedin.com/in/ira-dahiya-6a7b0825a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
         {
-          name: "Gurjot Singh",
+          name: "Harnoor Singh",
           position: "Content Head",
-          imageUrl: "/team.jpeg",
-          instagramUrl: "https://instagram.com",
+          imageUrl: "https://imagizer.imageshack.com/img924/170/7MQfTw.jpg",
+          instagramUrl: "https://instagram.com/harnoor.81",
           linkedinUrl: "https://linkedin.com"
         }
       ]
@@ -301,25 +301,25 @@ const Heads = () => {
       title: "Creativity Heads",
       heads: [
         {
-          name: "Navjot Kaur",
+          name: "Archit Garg",
           position: "Content Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
+          imageUrl: "https://imagizer.imageshack.com/img924/2381/dvF6Wk.jpg",
+          instagramUrl: "https://instagram.com/archit_garg04",
           linkedinUrl: "https://linkedin.com"
         },
         {
-          name: "Gurjot Singh",
+          name: "Harmandeep Singh",
           position: "Content Head",
-          imageUrl: "/team.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          imageUrl: "https://imagizer.imageshack.com/img923/6168/yRaNRj.jpg",
+          instagramUrl: "https://www.instagram.com/harmandhiman55_/",
+          linkedinUrl: "https://www.linkedin.com/in/harmandeep-singh-84a8b5222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
         },
         {
-          name: "Navjot Kaur",
+          name: "Kashika Chopra",
           position: "Content Head",
-          imageUrl: "/team3.jpeg",
+          imageUrl: "https://imagizer.imageshack.com/img923/9733/ByEsxM.jpg",
           instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          linkedinUrl: "https://www.linkedin.com/in/kashika-chopra-8449092bb?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app"
         },
       ]
     },
@@ -327,25 +327,25 @@ const Heads = () => {
       title: "Cultural Heads",
       heads: [
         {
-          name: "Navjot Kaur",
-          position: "Content Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          name: "Jashan Mankoo",
+          position: "Cultural Head",
+          imageUrl: "https://imagizer.imageshack.com/img923/2096/5OtelI.jpg",
+          instagramUrl: "https://www.instagram.com/jashan_mankoo_?igsh=MWl1NmVqYWd3enIxcg%3D%3D&amp;utm_source=qr",
+          linkedinUrl: "https://linkedin.com/in/jashandeep-singh-mankoo-30b84930a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
         },
         {
-          name: "Gurjot Singh",
-          position: "Content Head",
-          imageUrl: "/team.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          name: "Sukhman Singh",
+          position: "Cultural Head",
+          imageUrl: "",
+          instagramUrl: "https://www.instagram.com/sukhmxnnn_/",
+          linkedinUrl: "https://www.linkedin.com/in/sukhman-singh-323231253"
         },
         {
-          name: "Navjot Kaur",
-          position: "Content Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          name: "Anureet Kaur",
+          position: "Cultural Head",
+          imageUrl: "https://imagizer.imageshack.com/img924/1561/yKutpN.jpg",
+          instagramUrl: "https://www.instagram.com/anureeet.cheema?igsh=YXZ5cWNlb2hlcDB0",
+          linkedinUrl: "https://www.linkedin.com/in/anureet-cheema-87ab43232/"
         },
       ]
     },
@@ -353,18 +353,18 @@ const Heads = () => {
       title: "Design Heads",
       heads: [
         {
-          name: "Navjot Kaur",
-          position: "Content Head",
-          imageUrl: "/team3.jpeg",
+          name: "Ekamjot Kaur",
+          position: "Design Head",
+          imageUrl: "https://imagizer.imageshack.com/img924/7483/MIgPSF.png",
           instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          linkedinUrl: "https://www.linkedin.com/in/ekamjot-kaur-3b41b0258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         },
         {
-          name: "Gurjot Singh",
-          position: "Content Head",
-          imageUrl: "/team.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          name: "Bhumika Tandon",
+          position: "Design Head",
+          imageUrl: "https://imagizer.imageshack.com/img924/4568/Wa3R5t.jpg",
+          instagramUrl: "https://instagram.com/_bhumiii.x?igshid=OGQ5ZDc2ODk2ZA==",
+          linkedinUrl: "http://linkedin.com/in/bhumika-tandon-bt21"
         }
       ]
     },
@@ -372,17 +372,17 @@ const Heads = () => {
       title: "Media Heads",
       heads: [
         {
-          name: "Navjot Kaur",
-          position: "Content Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          name: "Abhay Bhagla",
+          position: "Media Head",
+          imageUrl: "https://imagizer.imageshack.com/img924/6912/8Z6fw4.jpg",
+          instagramUrl: "https://www.instagram.com/abhaybagla04?igsh=MTFoZG85aHJ2Nmsyeg%3D%3D&utm_source=q",
+          linkedinUrl: "https://www.linkedin.com/in/abhaybagla04?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
         },
         {
-          name: "Gurjot Singh",
-          position: "Content Head",
-          imageUrl: "/team.jpeg",
-          instagramUrl: "https://instagram.com",
+          name: "Mohandeep Singh Raikhi",
+          position: "Media Head",
+          imageUrl: "https://imagizer.imageshack.com/img923/7258/NJAz7T.jpg",
+          instagramUrl: "https://instagram.com/mohan__walia?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
           linkedinUrl: "https://linkedin.com"
         }
       ]
@@ -391,25 +391,25 @@ const Heads = () => {
       title: "Discipline Heads",
       heads: [
         {
-          name: "Navjot Kaur",
-          position: "Content Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
+          name: "Gurveer Singh Hundal",
+          position: "Discipline Head",
+          imageUrl: "https://imagizer.imageshack.com/img922/6320/1pbk4Q.jpg",
+          instagramUrl: "https://www.instagram.com/_g_hundal_/?utm_source=ig_web_button_share_sheet",
+          linkedinUrl: "http://linkedin.com/in/gurveer-singh-hundal-741186268"
+        },
+        {
+          name: "Angaddeep",
+          position: "Discipline Head",
+          imageUrl: "https://imagizer.imageshack.com/img924/2394/gXGHJC.jpg",
+          instagramUrl: "https://www.instagram.com/angaddeep_?igsh=MWFnb2J4cWNqaHM2eA==",
           linkedinUrl: "https://linkedin.com"
         },
         {
-          name: "Gurjot Singh",
-          position: "Content Head",
-          imageUrl: "/team.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
-        },
-        {
-          name: "Navjot Kaur",
-          position: "Content Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          name: "Abhaijeet Singh",
+          position: "Discipline Head",
+          imageUrl: "https://imagizer.imageshack.com/img923/8100/I1LKGd.jpg",  
+          instagramUrl: "https://www.instagram.com/abhaijeetsingh?igsh=MXVxcGEyOGxmanprbg==",
+          linkedinUrl: "http://www.linkedin.com/in/abhaijeet-singh-003030287"
         },
       ]
     },
@@ -417,10 +417,10 @@ const Heads = () => {
       title: "Documentation Heads",
       heads: [
         {
-          name: "Navjot Kaur",
+          name: "Jaideep Singh",
           position: "Content Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
+          imageUrl: "https://imagizer.imageshack.com/img922/6950/XBgXrM.jpg",
+          instagramUrl: "https://www.instagram.com/jaideepsingh2309?igsh=MTl1OTkzMnM5MzMyNQ==",
           linkedinUrl: "https://linkedin.com"
         }
       ]
@@ -429,18 +429,18 @@ const Heads = () => {
       title: "Finance Heads",
       heads: [
         {
-          name: "Navjot Kaur",
-          position: "Content Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
+          name: "Adamya Sharma",
+          position: "Finance Head",
+          imageUrl: "https://imagizer.imageshack.com/img924/1051/LwVhxK.jpg",
+          instagramUrl: "https://instagram.com/sharma_adamya?igshid=MzMyNGUyNmU2YQ==",
           linkedinUrl: "https://linkedin.com"
         },
         {
-          name: "Gurjot Singh",
-          position: "Content Head",
-          imageUrl: "/team.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          name: "Jasmine Panesar",
+          position: "Finance Head",
+          imageUrl: "https://imagizer.imageshack.com/img923/7605/umGgsa.jpg",
+          instagramUrl: "https://www.instagram.com/jasmine_panesar?igsh=MTIwZWc4bG1tOWlyMQ==",
+          linkedinUrl: "https://www.linkedin.com/in/jasmine-panesar8604/"
         }
       ]
     },
@@ -448,18 +448,18 @@ const Heads = () => {
       title: "Gurpurab Heads",
       heads: [
         {
-          name: "Navjot Kaur",
-          position: "Content Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
+          name: "Harteshwar Singh Dhaliwal",
+          position: "Gurpurab Head",
+          imageUrl: "https://imagizer.imageshack.com/img922/2152/PfD7WU.jpg",
+          instagramUrl: "https://www.instagram.com/dhaliwal_____0018?igsh=ejVmN2xucmZuYnF5",
           linkedinUrl: "https://linkedin.com"
         },
         {
-          name: "Gurjot Singh",
-          position: "Content Head",
-          imageUrl: "/team.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          name: "Manmeet Singh",
+          position: "Gurpurab Head",
+          imageUrl: "https://imagizer.imageshack.com/img924/6757/N1y3Q5.jpg",
+          instagramUrl: "https://www.instagram.com/singh_manmeet_official?igsh=c2l4djUzMXYwaXlz",
+          linkedinUrl:"https://www.linkedin.com/in/manmeet-singh-56b544263"
         }
       ]
     },
@@ -467,18 +467,18 @@ const Heads = () => {
       title: "Hospitality Heads",
       heads: [
         {
-          name: "Navjot Kaur",
-          position: "Content Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          name: "Jashandeep Singh Mann",
+          position: "Hospitality Head",
+          imageUrl: "https://imagizer.imageshack.com/img923/5688/lcNCQI.jpg ",
+          instagramUrl: "https://www.instagram.com/_mann__jashan_?igsh=MTMxMnBhcno1bTQydw%3D%3D&utm_source=qr",
+          linkedinUrl: "https://www.linkedin.com/in/jashandeep-singh-mann-922830166?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
         },
         {
-          name: "Gurjot Singh",
-          position: "Content Head",
-          imageUrl: "/team.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          name: "Akriti Kapoor",
+          position: "Hospitality Head",
+          imageUrl: "https://imagizer.imageshack.com/img922/2276/jraDgk.png",
+          instagramUrl: "https://www.instagram.com/akritiikapoor/profilecard/?igsh=MTVoM3J0cnlsaWdmbA==",
+          linkedinUrl: "https://www.linkedin.com/in/akritikapoor172?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
         }
       ]
     },
@@ -486,30 +486,30 @@ const Heads = () => {
       title: "Marketing Heads",
       heads: [
         {
-          name: "Navjot Kaur",
-          position: "Content Head",
-          imageUrl: "/team3.jpeg",
+          name: "Chandranshu Bhardwaj",
+          position: "Marketing Head",
+          imageUrl: "https://imagizer.imageshack.com/img923/9169/3xfVQS.jpg",
+          instagramUrl: "https://www.instagram.com/bhardwajchandranshu",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Manraj Singh",
+          position: "Marketing Head",
+          imageUrl: "https://imagizer.imageshack.com/img924/6112/r9mEZm.jpg",
+          instagramUrl:"https://www.instagram.com/manrajsingh.17?igsh=MWM5cnB6ajR5NTdicg==",
+          linkedinUrl: "https://linkedin.com"
+        },
+        {
+          name: "Harmanjot Singh",
+          position: "Marketing Head",
+          imageUrl: "https://imagizer.imageshack.com/img923/805/eswUHM.jpg",
           instagramUrl: "https://instagram.com",
           linkedinUrl: "https://linkedin.com"
         },
         {
-          name: "Gurjot Singh",
-          position: "Content Head",
-          imageUrl: "/team.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
-        },
-        {
-          name: "Navjot Kaur",
-          position: "Content Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
-        },
-        {
-          name: "Navjot Kaur",
-          position: "Content Head",
-          imageUrl: "/team3.jpeg",
+          name: "Namanmeet Kaur",
+          position: "Marketing Head",
+          imageUrl: "https://imagizer.imageshack.com/img924/8194/IRsvYA.jpg",
           instagramUrl: "https://instagram.com",
           linkedinUrl: "https://linkedin.com"
         },
@@ -519,18 +519,18 @@ const Heads = () => {
       title: "Publicity Heads",
       heads: [
         {
-          name: "Navjot Kaur",
-          position: "Content Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          name: "Harmandeep Singh",
+          position: "Publicity Head",
+          imageUrl:"https://imagizer.imageshack.com/img922/844/WcutDa.jpg",
+          instagramUrl: "https://www.instagram.com/harmandhiman55_/",
+          linkedinUrl: "https://www.linkedin.com/in/harmandeep-singh-84a8b5222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
         },
         {
-          name: "Gurjot Singh",
-          position: "Content Head",
-          imageUrl: "/team.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          name: "Ashwanreet Kaur",
+          position: "Publicity Head",
+          imageUrl:"https://imagizer.imageshack.com/img923/7067/1LCDzP.jpg",
+          instagramUrl: "https://www.instagram.com/ashwan_049?igsh=MWF1ZTlwZXBnbGRiZw==",
+          linkedinUrl: ":https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
         }
       ]
     },
@@ -538,17 +538,17 @@ const Heads = () => {
       title: "Logistics Heads",
       heads: [
         {
-          name: "Navjot Kaur",
-          position: "Content Head",
-          imageUrl: "/team3.jpeg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://linkedin.com"
+          name: "Ishmit Singh",
+          position: "Logistics Head",
+          imageUrl: "https://imagizer.imageshack.com/img924/3199/zMMoBr.jpg",
+          instagramUrl: "https://www.instagram.com/amiteshwar.51/",
+          linkedinUrl: "https://www.linkedin.com/in/ishmit/"
         },
         {
-          name: "Gurjot Singh",
-          position: "Content Head",
-          imageUrl: "/team.jpeg",
-          instagramUrl: "https://instagram.com",
+          name: "Agamjot Singh",
+          position: "Logistics Head",
+          imageUrl: "https://imagizer.imageshack.com/img924/1930/MjOvUe.jpg",
+          instagramUrl: "https://www.instagram.com/agamjot.bawejaa?igsh=dXR5YmV6dDhnbTJm",
           linkedinUrl: "https://linkedin.com"
         }
       ]
