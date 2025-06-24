@@ -1,8 +1,14 @@
 "use client"
-// import { useNavigate } from "react-router-dom";
 import { useEffect, useRef, useState } from "react";
 
-// Combined component for 404 page
+// Types for the circle animation
+interface Circulo {
+  x: number;
+  y: number;
+  size: number;
+}
+
+// Root component for the 404 page with animated background and message display
 export default function NotFoundPage() {
   return (
     <div className="w-full h-screen bg-black overflow-x-hidden flex justify-center items-center relative">
@@ -13,7 +19,7 @@ export default function NotFoundPage() {
   );
 }
 
-// 1. Message Display Component
+// MessageDisplay: Renders the 404 message with a fade-in animation
 function MessageDisplay() {
   // const navigate = useNavigate();
   const [isVisible, setIsVisible] = useState(false);
@@ -229,13 +235,15 @@ interface Circulo {
   size: number;
 }
 
+// CircleAnimation: A component that creates an animated background effect with moving circles
 function CircleAnimation() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const requestIdRef = useRef<number>();
+  // Reference to store animation frame request ID
+  const requestIdRef = useRef<number | undefined>(undefined);
   const timerRef = useRef(0);
   const circulosRef = useRef<Circulo[]>([]);
 
-  // Initialize circles array
+  // Initialize array of circles with random positions and sizes
   const initArr = () => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -257,7 +265,7 @@ function CircleAnimation() {
     }
   };
 
-  // Drawing function
+  // Animation loop: draws and updates circles on canvas
   const draw = () => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -301,7 +309,7 @@ function CircleAnimation() {
     requestIdRef.current = requestAnimationFrame(draw);
   };
 
-  // Initialize canvas and start animation
+  // Setup effect: initialize canvas, handle resizing, and manage animation lifecycle
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
