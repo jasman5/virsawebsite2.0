@@ -1,27 +1,32 @@
+/* Heads.css — full replacement
+   Ensures images sit above overlay, compatible with Next.js Image (fill).
+*/
+
+/* page/core layout */
 .core-container {
   margin-top: 0.5rem;
-  background: url(https://imagizer.imageshack.com/img923/4084/G20M5N.jpg);  /* Dark background */
+  background: url(https://imagizer.imageshack.com/img923/4084/G20M5N.jpg);
   min-height: 100vh;
   padding: 2rem;
   overflow-x: hidden;
   border-radius: 20px;
-  background-size:contain;
-  
+  background-size: contain;
 }
 
+/* compartments */
 .compartment {
-  margin-bottom: 2rem;  /* Reduced from 4rem */
-  padding: 1.5rem;      /* Reduced from 2rem */
+  margin-bottom: 2rem;
+  padding: 1.5rem;
   border-radius: 15px;
-  background: rgba(100, 4, 4, 0.05);  /* Darker compartment background */
+  background: rgba(100, 4, 4, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .compartment-heading {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 2.5rem;
-  color: #d4a024;  /* Changed to gold color to match cards */
-  margin-bottom: 1.5rem;  /* Reduced from 2rem */
+  color: #d4a024;
+  margin-bottom: 1.5rem;
   padding-left: 1rem;
   border-left: 5px solid rgba(212, 160, 36, 0.5);
 }
@@ -29,160 +34,108 @@
 .cards-container {
   display: flex;
   justify-content: space-evenly;
-  gap: 0.5rem;  /* Reduced from 2rem */
+  gap: 0.5rem;
   flex-wrap: wrap;
 }
 
 @media (max-width: 1200px) {
-  .cards-container {
-    justify-content: center;
-  }
+  .cards-container { justify-content: center; }
 }
 
-/* Add these styles to make Gen Secs section larger */
+/* Gen secs */
 .gen-secs-compartment {
   width: 100%;
   margin-bottom: 3rem;
   height: 80vh;
 }
-
-.gen-secs-compartment .compartment-heading {
-  margin-bottom: 3rem; /* Increased padding between heading and cards */
-}
-
-.gen-secs-cards {
-  display: flex;
-  justify-content: center;
-  gap: 7rem; /* Increased from 2rem to 4rem for more spacing */
-  flex-wrap: wrap;
-}
-
-.gen-secs-cards > * {
-  flex: 0 0 auto;
-}
-
-@media (max-width: 768px) {
-  .gen-secs-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-.gen-secs-cards > * {
-  transform: scale(1.2);
-}
-
-
-/* Updated Heads.css with modern dark theme styling */
+.gen-secs-compartment .compartment-heading { margin-bottom: 3rem; }
+.gen-secs-cards { display:flex; justify-content:center; gap:7rem; flex-wrap:wrap; }
+@media (max-width:768px) { .gen-secs-cards { flex-direction:column; align-items:center; } }
+.gen-secs-cards > * { transform: scale(1.2); }
 
 /* Cultural pattern backgrounds */
 .cultural-pattern-bg {
   background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
-/* Decorative elements */
-.decorative-circle {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(40px);
-  opacity: 0.15;
-  z-index: 0;
-}
+/* decorative elements */
+.decorative-circle { position: absolute; border-radius: 50%; filter: blur(40px); opacity: 0.15; z-index: 0; }
+.decorative-circle-1 { top:10%; right:5%; width:300px; height:300px; background: radial-gradient(circle, rgba(245,158,11,0.4) 0%, rgba(217,119,6,0.1) 70%); }
+.decorative-circle-2 { bottom:15%; left:10%; width:250px; height:250px; background: radial-gradient(circle, rgba(180,83,9,0.3) 0%, rgba(146,64,14,0.1) 70%); }
 
-.decorative-circle-1 {
-  top: 10%;
-  right: 5%;
-  width: 300px;
-  height: 300px;
-  background: radial-gradient(circle, rgba(245, 158, 11, 0.4) 0%, rgba(217, 119, 6, 0.1) 70%);
-}
-
-.decorative-circle-2 {
-  bottom: 15%;
-  left: 10%;
-  width: 250px;
-  height: 250px;
-  background: radial-gradient(circle, rgba(180, 83, 9, 0.3) 0%, rgba(146, 64, 14, 0.1) 70%);
-}
-
-/* Card hover effects */
+/* base team-card (updated) */
+/* NOTE: overflow visible allows the image to overlap the overlay or card edge */
 .team-card {
-  transition: all 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: visible;         /* allow image to be visible above overlays */
+  position: relative;        /* create stacking context */
+  background-color: #111827;
+  border: 1px solid rgba(245,158,11,0.1);
+  border-radius: 12px;
+  transition: all 0.3s ease;
   transform-style: preserve-3d;
 }
 
+/* hover */
 .team-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,0.3), 0 10px 10px -5px rgba(0,0,0,0.2);
 }
-
 .team-card::after {
   content: '';
   position: absolute;
   inset: 0;
   border-radius: inherit;
-  background: linear-gradient(to bottom right, rgba(245, 158, 11, 0.1), rgba(217, 119, 6, 0.05));
+  background: linear-gradient(to bottom right, rgba(245,158,11,0.03), rgba(217,119,6,0.02));
   opacity: 0;
   transition: opacity 0.3s ease;
   pointer-events: none;
+  z-index: 5;                /* keep under image and overlay contents */
 }
+.team-card:hover::after { opacity: 1; }
 
-.team-card:hover::after {
-  opacity: 1;
-}
-
-/* Section dividers */
-.section-divider {
-  height: 3px;
-  background: linear-gradient(to right, transparent, rgba(245, 158, 11, 0.5), transparent);
-  margin: 3rem 0;
-  width: 100%;
-}
-
-/* Custom scrollbar for the page */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #1f1f1f;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #b45309, #92400e);
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, #d97706, #b45309);
-}
-
-/* Font styling for Punjabi accent */
-.font-playfair {
-  font-family: var(--font-playfair), serif;
-}
-
-/* Additional styling for the redesigned Heads page */
-
-/* Team card styling */
-.team-card {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  overflow: hidden;
-  background-color: #111827;
-  border: 1px solid rgba(245, 158, 11, 0.1);
-  transition: all 0.3s ease;
-}
-
-/* Image container styling */
+/* IMAGE CONTAINER: place overlay inside container, and make image above overlay */
 .team-card .image-container {
   position: relative;
   height: 240px;
-  overflow: hidden;
+  overflow: visible;         /* allow image to overlap if needed */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  z-index: 10;               /* behind the image (image will be higher) */
 }
 
-/* Content styling */
+/* overlay inside image container (dark/blue effect) */
+.team-card .image-container .image-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 15;               /* under the actual image but above background */
+  background: linear-gradient(to top, rgba(17,24,39,0.85), rgba(17,24,39,0.35));
+  pointer-events: none;
+  mix-blend-mode: multiply;
+}
+
+/* Next.js <Image> specifics: Next/Image renders wrapper <span> and an <img>.
+   target both wrapper and the img itself to ensure image is on top. */
+.team-card .image-container > span /* Next/Image wrapper */ { position: absolute !important; inset: 0; z-index: 30; }
+.team-card .image-container img { position: relative !important; z-index: 30 !important; display: block; object-fit: cover; }
+
+/* If you add a className to the Image (recommended), target it */
+.team-card .image-container .team-img { position: relative !important; z-index: 30 !important; }
+
+/* allow a slight overlap look */
+.team-card .image-container .team-img, 
+.team-card .image-container img {
+  transform: translateY(0);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.team-card:hover .image-container .team-img,
+.team-card:hover .image-container img {
+  transform: translateY(-10px) scale(1.02);
+}
+
+/* content section */
 .team-card .content {
   padding: 1.25rem;
   flex-grow: 1;
@@ -190,61 +143,33 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #111827;
+  z-index: 20; /* above card base but below image if needed */
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
-/* Name styling */
-.team-card h3 {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #f59e0b;
-  margin-bottom: 0.25rem;
-}
+/* text */
+.team-card h3 { font-size:1.25rem; font-weight:700; color:#f59e0b; margin-bottom:0.25rem; }
+.team-card .position { font-size:0.875rem; color: rgba(245,158,11,0.8); font-weight:500; margin-bottom:0.75rem; }
+.team-card .description { font-size:0.875rem; color:#d1d5db; margin-bottom:1rem; }
 
-/* Position styling */
-.team-card .position {
-  font-size: 0.875rem;
-  color: rgba(245, 158, 11, 0.8);
-  font-weight: 500;
-  margin-bottom: 0.75rem;
-}
+/* social links */
+.team-card .social-links { display:flex; gap:0.75rem; margin-top:auto; padding-top:0.75rem; border-top:1px solid rgba(245,158,11,0.08); }
 
-/* Description styling */
-.team-card .description {
-  font-size: 0.875rem;
-  color: #d1d5db;
-  margin-bottom: 1rem;
-}
+/* department section visuals */
+.section-divider { height:3px; background: linear-gradient(to right, transparent, rgba(245,158,11,0.5), transparent); margin:3rem 0; width:100%; }
 
-/* Social links styling */
-.team-card .social-links {
-  display: flex;
-  gap: 0.75rem;
-  margin-top: auto;
-  padding-top: 0.75rem;
-  border-top: 1px solid rgba(245, 158, 11, 0.1);
-}
+/* scrollbars */
+::-webkit-scrollbar { width:10px; }
+::-webkit-scrollbar-track { background:#1f1f1f; }
+::-webkit-scrollbar-thumb { background: linear-gradient(to bottom,#b45309,#92400e); border-radius:5px; }
+::-webkit-scrollbar-thumb:hover { background: linear-gradient(to bottom,#d97706,#b45309); }
 
-/* Department section styling */
-.department-section {
-  margin-bottom: 4rem;
-}
+/* typography */
+.font-playfair { font-family: var(--font-playfair), serif; }
 
-.department-section .title {
-  display: flex;
-  align-items: center;
-  margin-bottom: 2rem;
-}
-
-.department-section .title-bar {
-  width: 4px;
-  height: 2.5rem;
-  background: linear-gradient(to bottom, #f59e0b, #b45309);
-  border-radius: 9999px;
-  margin-right: 1rem;
-}
-
-.department-section h2 {
-  font-size: 1.875rem;
-  font-weight: 700;
-  color: #f59e0b;
+/* smaller screens adjustments */
+@media (max-width: 768px) {
+  .team-card .image-container { height: 200px; }
+  .team-card { border-radius: 10px; }
 }
