@@ -349,7 +349,7 @@ const Heads = () => {
          {
           name: "Palak Garg",
           position: "Creativity Head",
-          imageUrl: "https://imagizer.imageshack.com/img923/9733/ByEsxM.jpg",
+          imageUrl: "/headspic/palak.jpg",
           instagramUrl: "https://www.instagram.com/_.palakkx._?igsh=MXdwemJuMG11M2czbQ==",
           linkedinUrl: "https://www.linkedin.com/in/palak-garg-bb149b28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
         },
@@ -400,7 +400,7 @@ const Heads = () => {
           linkedinUrl: "https://www.linkedin.com/in/prakhar-saxena-554405295/"
         },
         {
-          name: "Jahnvi",
+          name: "Jahanvi",
           position: "Design Head",
           imageUrl: "/headspic/jahanvi.jpg",
           instagramUrl: "https://www.instagram.com/jahanvisinghal_15?igsh=MXh2dTRuM3RkNndlbQ==",
@@ -415,27 +415,7 @@ const Heads = () => {
         }
       ]
     },
-    {
-      title: "Media Heads",
-      heads: [
-
-     {
-  name: "Shehbaaz",
-  position: "Media Head",
-  imageUrl: "https://imagizer.imageshack.com/img922/4065/a5RWhe.jpg",
-  instagramUrl: "https://www.instagram.com/sidhushehbaz?igsh=ZXFhemY2dzdpaG5p&utm_source=qr",
-  linkedinUrl: "https://www.linkedin.com/in/shehbaz-ssidhu/"
-
-        },
-        {
-          name: "Nityam",
-          position: "Media Head",
-          imageUrl: "https://imagizer.imageshack.com/img924/1775/LOldyJ.jpg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "https://www.linkedin.com/in/nityam-%E2%80%8E-%E2%80%8E-1b01ab267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-        }
-      ]
-    },
+    
     {
       title: "Discipline Heads",
       heads: [
@@ -567,7 +547,27 @@ const Heads = () => {
         },
       ]
     },
-   
+   {
+      title: "Media Heads",
+      heads: [
+
+     {
+  name: "Shehbaaz",
+  position: "Media Head",
+  imageUrl: "https://imagizer.imageshack.com/img922/4065/a5RWhe.jpg",
+  instagramUrl: "https://www.instagram.com/sidhushehbaz?igsh=ZXFhemY2dzdpaG5p&utm_source=qr",
+  linkedinUrl: "https://www.linkedin.com/in/shehbaz-ssidhu/"
+
+        },
+        {
+          name: "Nityam",
+          position: "Media Head",
+          imageUrl: "https://imagizer.imageshack.com/img924/1775/LOldyJ.jpg",
+          instagramUrl: "https://instagram.com",
+          linkedinUrl: "https://www.linkedin.com/in/nityam-%E2%80%8E-%E2%80%8E-1b01ab267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+        }
+      ]
+    },
     {
       title: "Logistics Heads",
       heads: [
