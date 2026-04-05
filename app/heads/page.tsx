@@ -271,7 +271,7 @@ const Heads = () => {
         {
           name: "Uday Brar",
           position: "Convenor",
-          imageUrl: "https://imagizer.imageshack.com/img923/7152/vJ7dto.jpg",
+          imageUrl: "/headspic/uday.jpeg",
           instagramUrl:
             "https://www.linkedin.com/in/udaypartap-singh-586559304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
           linkedinUrl:
@@ -317,7 +317,7 @@ const Heads = () => {
         {
           name: "Uday",
           position: "Creativity Head",
-          imageUrl: "https://imagizer.imageshack.com/img923/7152/vJ7dto.jpg",
+          imageUrl: "/headspic/uday.jpeg",
           instagramUrl:
             "https://www.instagram.com/udaypartap.singh.brar?igsh=enB0OG45cWRvNWFl",
           linkedinUrl:
@@ -441,14 +441,6 @@ const Heads = () => {
             "https://www.instagram.com/hridyum_?igsh=c2psYXFoZDI1dzZi",
           linkedinUrl:
             "https://www.linkedin.com/in/hridyum-bindal-772383312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        },
-        {
-          name: "Manjot",
-          position: "Discipline Head",
-          imageUrl: "https://imagizer.imageshack.com/img923/8100/I1LKGd.jpg",
-          instagramUrl:
-            "https://www.instagram.com/abhaijeetsingh?igsh=MXVxcGEyOGxmanprbg==",
-          linkedinUrl: "http://www.linkedin.com/in/abhaijeet-singh-003030287",
         },
       ],
     },
@@ -648,16 +640,18 @@ const Heads = () => {
           position: "Technical Head",
           imageUrl: "/headspic/jasman.jpeg",
           instagramUrl: "https://www.instagram.com/jasmann_05",
-          linkedinUrl: "http://www.linkedin.com/in/jasman05"
+          linkedinUrl: "http://www.linkedin.com/in/jasman05",
         },
         {
           name: "Aditya",
           position: "Technical Head ",
           imageUrl: "/headspic/aditya.jpg",
-          instagramUrl:"https://www.instagram.com/adityaa.2.7?igsh=MWI5aHZpY3BwZmVoMg%3D%3D&utm_source=qr",
-          linkedinUrl: "https://www.linkedin.com/in/aditya-sharma-658a69292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-        }
-      ]
+          instagramUrl:
+            "https://www.instagram.com/adityaa.2.7?igsh=MWI5aHZpY3BwZmVoMg%3D%3D&utm_source=qr",
+          linkedinUrl:
+            "https://www.linkedin.com/in/aditya-sharma-658a69292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        },
+      ],
     },
   ];
 
