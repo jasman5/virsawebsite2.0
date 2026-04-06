@@ -166,7 +166,7 @@ const coreTeamMembers: TeamMember[] = [
       linkedin: "https://www.linkedin.com/in/harshpreet-singh-482326325",
     },
   },
-  { id: 19, name: "Harsirat", imageUrl: "", socialLinks: {} },
+  // { id: 19, name: "Harsirat", imageUrl: "", socialLinks: {} },
   {
     id: 20,
     name: "Jagbir Singh",
@@ -211,7 +211,7 @@ const coreTeamMembers: TeamMember[] = [
       linkedin: "https://www.linkedin.com/in/prabhsimran-singh-945312344/",
     },
   },
-  { id: 27, name: "Preetinder", imageUrl: "", socialLinks: {} },
+  // { id: 27, name: "Preetinder", imageUrl: "", socialLinks: {} },
   {
     id: 28,
     name: "Rabaaz Singh Sidhu",
