@@ -151,7 +151,6 @@ const coreTeamMembers: TeamMember[] = [
     id: 17,
     name: "Hargunpreet Singh Sujlana",
     imageUrl: "",
-    // imageUrl: "/corepic/hargun.jpeg",
     socialLinks: {
       instagram: "https://www.instagram.com/hargunpreet._",
       linkedin:
