@@ -8,9 +8,8 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-  Link,
-  Tooltip,
 } from "@nextui-org/react";
+import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from "framer-motion";
 
@@ -21,9 +20,10 @@ export const AcmeLogo = () => {
       alt="Virsa Logo"
       width={130}
       height={130}
-      priority 
+      priority
       unoptimized // if this is above the fold
       className="object-contain"
+      style={{ width: '130', height: '130' }}
     />
   );
 };
@@ -60,16 +60,10 @@ export default function App_Navbar() {
       <NavbarContent className="hidden sm:flex gap-6" justify="center">
         {menuItems.map((item, index) => (
           <NavbarItem key={`${item.name}-${index}`}>
-            <Tooltip content={item.punjabi} placement="bottom">
-              <Link 
-                className="text-xl font-medium relative group" 
-                color="foreground" 
-                href={item.path}
-              >
-                {item.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-600 transition-all group-hover:w-full"></span>
-              </Link>
-            </Tooltip>
+            <Link href={item.path} title={item.punjabi} className="text-xl font-medium relative group text-white hover:text-orange-400 transition-colors">
+              {item.name}
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-600 transition-all group-hover:w-full"></span>
+            </Link>
           </NavbarItem>
         ))}
       </NavbarContent>
@@ -77,12 +71,7 @@ export default function App_Navbar() {
       <NavbarMenu className="bg-black pt-6">
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item.name}-${index}`}>
-            <Link
-              className="w-full text-xl flex items-center justify-between py-2"
-              color="foreground"
-              href={item.path}
-              size="lg"
-            >
+            <Link href={item.path} title={item.punjabi} className="w-full text-xl flex items-center justify-between py-2 text-white hover:text-orange-400 transition-colors">
               <span>{item.name}</span>
               <span className="text-orange-600 text-sm">{item.punjabi}</span>
             </Link>

@@ -10,7 +10,7 @@ const images: string[] = [
   "/team4.jpeg",
   "/team5.PNG",
   "/jaggo.jpeg",
-  "/mela23.JPG",
+  "/mela23.jpeg",
   "/gur6.jpeg",
 ];
 
@@ -51,7 +51,8 @@ const PhotoSliderHome: React.FC = () => {
                   fill
                   sizes="(max-width: 768px) 100vw, 288px"
                   className="object-cover"
-                  priority={index < 2} // Prioritize loading first two images
+                  loading={index === 0 ? 'eager' : 'lazy'}
+                  priority={index === 0}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent"></div>
                 <div className="absolute bottom-3 left-3 text-white text-sm font-medium">

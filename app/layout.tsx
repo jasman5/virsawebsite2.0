@@ -31,22 +31,22 @@ export const metadata: Metadata = {
 };
 
 // Create a client component wrapper for the body content
-// function RootLayoutClient({ children }: { children: React.ReactNode }) {
-//   'use client';
+function RootLayoutClient({ children }: { children: React.ReactNode }) {
+  'use client';
   
-//   return (
-//     <>
-//       {/* Loading screen will show on every page load */}
-//       <ClientLoadingScreen 
-//         duration={1500}        // Show for 1.5 seconds
-//         fadeOutDuration={1000} // Fade out over 1 second
-//         title="VIRSA"          // Your site name
-//         subtitle="Loading your cultural experience..."
-//         />
-//       {children}
-//     </>
-//   );
-// }
+  return (
+    <>
+      {/* Loading screen will show on every page load */}
+      <LoadingScreen 
+        duration={1000}        // Reduced from 1500ms
+        fadeOutDuration={500}  // Reduced from 1000ms
+        title="VIRSA"          
+        subtitle="Loading your cultural experience..."
+        />
+      {children}
+    </>
+  );
+}
 
 export default function RootLayout({
   children,
@@ -57,13 +57,9 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${playfairDisplay.variable} ${inter.variable} ${poppins.variable} antialiased`}>
-        <LoadingScreen 
-        duration={1500}        // Show for 1.5 seconds
-        fadeOutDuration={1000} // Fade out over 1 second
-        title="VIRSA"          // Your site name
-        subtitle="Loading your cultural experience..."
-        />
-        {children}
+        <RootLayoutClient>
+          {children}
+        </RootLayoutClient>
       </body>
     </html>
   );

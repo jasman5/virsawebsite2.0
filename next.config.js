@@ -1,17 +1,3 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   images: {
-//     remotePatterns: [
-//       {
-//         protocol: 'https',
-//         hostname: 'imagizer.imageshack.com',  // Updated to match the ImageShack domain
-//       },
-//     ],
-//   },
-// }
-
-// module.exports = nextConfig 
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   eslint: {
@@ -26,6 +12,14 @@ const nextConfig = {
         pathname: '/**',
       },
     ],
+  },
+  // Optimize build performance
+  experimental: {
+    optimizePackageImports: ['framer-motion', '@tsparticles/react', 'swiper'],
+  },
+  // Reduce bundle size
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
   },
 }
 

@@ -1,11 +1,31 @@
 import React from "react";
 import App_Navbar from "./components/navbar";
-import VideoPlayer from "./components/VideoPlayer";
-import PhotoSliderHome from "./components/PhotoSliderHome";
-import MovieNight from "./components/EventsSlider";
-import {Gallery4Demo}  from "./components/galleryslider";
-import { GlowingEffectDemo } from "./components/FactsHome";
-import { FooterSection } from "./components/footer-section";
+import dynamic from 'next/dynamic';
+
+// Dynamically import heavy components to reduce initial bundle size
+const VideoPlayer = dynamic(() => import('./components/VideoPlayer'), {
+  loading: () => <div className="w-full h-[90vh] bg-black flex items-center justify-center"><div className="text-white">Loading...</div></div>
+});
+
+const PhotoSliderHome = dynamic(() => import('./components/PhotoSliderHome'), {
+  loading: () => <div className="w-full h-60 bg-black"></div>
+});
+
+const MovieNight = dynamic(() => import('./components/EventsSlider'), {
+  loading: () => <div className="py-12 px-4 bg-black flex items-center justify-center"><div className="text-white">Loading events...</div></div>
+});
+
+const Gallery4Demo = dynamic(() => import('./components/galleryslider').then(mod => ({ default: mod.Gallery4Demo })), {
+  loading: () => <div className="py-12 bg-black flex items-center justify-center"><div className="text-white">Loading gallery...</div></div>
+});
+
+const GlowingEffectDemo = dynamic(() => import('./components/FactsHome').then(mod => ({ default: mod.GlowingEffectDemo })), {
+  loading: () => <div className="mb-20 bg-black flex items-center justify-center"><div className="text-white">Loading facts...</div></div>
+});
+
+const FooterSection = dynamic(() => import('./components/footer-section').then(mod => ({ default: mod.FooterSection })), {
+  loading: () => <div className="bg-black flex items-center justify-center"><div className="text-white">Loading footer...</div></div>
+});
 
 export default function Home() {
   return (

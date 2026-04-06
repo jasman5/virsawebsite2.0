@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { SparklesCore } from "@/app/components/ui/sparkles";
 
 interface LoadingScreenProps {
   duration?: number; // How long to show the loading screen (in milliseconds)
@@ -10,8 +9,8 @@ interface LoadingScreenProps {
 }
 
 export default function LoadingScreen({ 
-  duration = 1500, 
-  fadeOutDuration = 1000,
+  duration = 1000, 
+  fadeOutDuration = 500,
   title = "VIRSA",
   subtitle = "Loading your experience..."
 }: LoadingScreenProps) {
@@ -49,19 +48,8 @@ export default function LoadingScreen({
       {/* Main container */}
       <div className="h-screen w-full bg-black flex flex-col items-center justify-center overflow-hidden">
         
-        {/* Sparkles background */}
-        <div className="w-full absolute inset-0 h-screen">
-          <SparklesCore
-            id="loadingsparkles"
-            background="transparent"
-            minSize={0.6}
-            maxSize={1.4}
-            particleDensity={100}
-            className="w-full h-full"
-            particleColor="#ee8736"
-            speed={1}
-          />
-        </div>
+        {/* Simple gradient background instead of sparkles */}
+        <div className="absolute inset-0 bg-gradient-to-br from-amber-900/20 via-black to-orange-900/20"></div>
         
         {/* Content overlay */}
         <div className="flex flex-col items-center justify-center gap-6 relative z-20 px-4">
@@ -73,9 +61,9 @@ export default function LoadingScreen({
           
           {/* Animated dots */}
           <div className="flex space-x-2 mb-4">
-            <div className="w-3 h-3 bg-white rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
-            <div className="w-3 h-3 bg-white rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></div>
-            <div className="w-3 h-3 bg-white rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
+            <div className="w-3 h-3 bg-amber-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
+            <div className="w-3 h-3 bg-amber-400 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></div>
+            <div className="w-3 h-3 bg-amber-400 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
           </div>
           
           {/* Subtitle */}
