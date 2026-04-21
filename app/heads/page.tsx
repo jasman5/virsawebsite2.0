@@ -268,15 +268,7 @@ const Heads = () => {
     {
       title: "Convenors",
       heads: [
-        {
-          name: "Uday Brar",
-          position: "Convenor",
-          imageUrl: "/headspic/uday.jpeg",
-          instagramUrl:
-            "https://www.linkedin.com/in/udaypartap-singh-586559304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-          linkedinUrl:
-            "https://www.instagram.com/udaypartap.singh.brar?igsh=enB0OG45cWRvNWFl",
-        },
+       
         {
           name: "Jasmine Kaur",
           position: "Convevor",
@@ -285,6 +277,36 @@ const Heads = () => {
             "https://www.instagram.com/jasmine_28kaur?igsh=eTZqeXh0dmF0NGl5&utm_source=qr",
           linkedinUrl:
             "https://www.linkedin.com/in/jasmine-kaur-765051297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        },
+         {
+          name: "Uday Brar",
+          position: "Convenor",
+          imageUrl: "/headspic/uday.jpeg",
+          instagramUrl:
+            "https://www.linkedin.com/in/udaypartap-singh-586559304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          linkedinUrl:
+            "https://www.instagram.com/udaypartap.singh.brar?igsh=enB0OG45cWRvNWFl",
+        }
+      ],
+    },
+    {
+      title: "Technical Heads",
+      heads: [
+        {
+          name: "Jasman Kaur",
+          position: "Technical Head",
+          imageUrl: "/headspic/jasman.jpeg",
+          instagramUrl: "https://www.instagram.com/jasmann_05",
+          linkedinUrl: "http://www.linkedin.com/in/jasman05",
+        },
+        {
+          name: "Aditya",
+          position: "Technical Head ",
+          imageUrl: "/headspic/aditya.jpg",
+          instagramUrl:
+            "https://www.instagram.com/adityaa.2.7?igsh=MWI5aHZpY3BwZmVoMg%3D%3D&utm_source=qr",
+          linkedinUrl:
+            "https://www.linkedin.com/in/aditya-sharma-658a69292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         },
       ],
     },
@@ -355,15 +377,7 @@ const Heads = () => {
     {
       title: "Cultural Heads",
       heads: [
-        {
-          name: "Dapinder",
-          position: "Cultural Head",
-          imageUrl: "https://imagizer.imageshack.com/img923/6814/4zjPzl.jpg",
-          instagramUrl:
-            "https://www.instagram.com/dapindersinghbadesha?igsh=MWMwZnhzb2dsdnZxbg%3D%3D&utm_source=qr",
-          linkedinUrl: "https://linkedin.com",
-        },
-        {
+         {
           name: "Harnoor Kaur",
           position: "Cultural Head",
           imageUrl: "/headspic/harnoor.jpg",
@@ -372,6 +386,15 @@ const Heads = () => {
           linkedinUrl:
             "https://www.linkedin.com/in/harnoorkaur2004?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         },
+        {
+          name: "Dapinder",
+          position: "Cultural Head",
+          imageUrl: "https://imagizer.imageshack.com/img923/6814/4zjPzl.jpg",
+          instagramUrl:
+            "https://www.instagram.com/dapindersinghbadesha?igsh=MWMwZnhzb2dsdnZxbg%3D%3D&utm_source=qr",
+          linkedinUrl: "https://linkedin.com",
+        },
+       
         {
           name: "Maheep",
           position: "Cultural Head",
@@ -396,13 +419,6 @@ const Heads = () => {
       title: "Design Heads",
       heads: [
         {
-          name: "Prakhar",
-          position: "Design Head",
-          imageUrl: "/headspic/prakhar.jpg",
-          instagramUrl: "https://www.instagram.com/prakhar_0320/",
-          linkedinUrl: "https://www.linkedin.com/in/prakhar-saxena-554405295/",
-        },
-        {
           name: "Jahanvi",
           position: "Design Head",
           imageUrl: "/headspic/jahanvi.jpg",
@@ -412,12 +428,14 @@ const Heads = () => {
             "https://www.linkedin.com/in/jahanvi-singhal-33981b29a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         },
         {
-          name: "Balkirat",
+          name: "Prakhar",
           position: "Design Head",
-          imageUrl: "https://imagizer.imageshack.com/img922/7052/KrJdru.jpg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl: "http://linkedin.com",
-        },
+          imageUrl: "/headspic/prakhar.jpg",
+          instagramUrl: "https://www.instagram.com/prakhar_0320/",
+          linkedinUrl: "https://www.linkedin.com/in/prakhar-saxena-554405295/",
+        }
+        
+       
       ],
     },
 
@@ -472,14 +490,6 @@ const Heads = () => {
       title: "Gurpurab Heads",
       heads: [
         {
-          name: "Dhanveer",
-          position: "Gurpurab Head",
-          imageUrl: "/headspic/dhanveer.jpg",
-          instagramUrl:
-            "https://www.instagram.com/dhaliwal_____0018?igsh=ejVmN2xucmZuYnF5",
-          linkedinUrl: "https://linkedin.com",
-        },
-        {
           name: "Harnoor Kaur",
           position: "Gurpurab Head",
           imageUrl: "/headspic/harnoor.jpg",
@@ -487,6 +497,14 @@ const Heads = () => {
             "https://www.instagram.com/harnoor7024?igsh=bG9uc3d3MnBzc2Zn&utm_source=qr",
           linkedinUrl:
             "https://www.linkedin.com/in/harnoorkaur2004?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        },
+        {
+          name: "Dhanveer",
+          position: "Gurpurab Head",
+          imageUrl: "/headspic/dhanveer.jpg",
+          instagramUrl:
+            "https://www.instagram.com/dhaliwal_____0018?igsh=ejVmN2xucmZuYnF5",
+          linkedinUrl: "https://linkedin.com",
         },
         {
           name: "Harnoor Singh Khalsa",
@@ -601,14 +619,7 @@ const Heads = () => {
             "https://www.instagram.com/sidhushehbaz?igsh=ZXFhemY2dzdpaG5p&utm_source=qr",
           linkedinUrl: "https://www.linkedin.com/in/shehbaz-ssidhu/",
         },
-        {
-          name: "Nityam",
-          position: "Media Head",
-          imageUrl: "https://imagizer.imageshack.com/img924/1775/LOldyJ.jpg",
-          instagramUrl: "https://instagram.com",
-          linkedinUrl:
-            "https://www.linkedin.com/in/nityam-%E2%80%8E-%E2%80%8E-1b01ab267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        },
+     
       ],
     },
     {
@@ -629,27 +640,6 @@ const Heads = () => {
           imageUrl: "/headspic/jasman.jpeg",
           instagramUrl: "https://www.instagram.com/jasmann_05",
           linkedinUrl: "http://www.linkedin.com/in/jasman05",
-        },
-      ],
-    },
-    {
-      title: "Technical Heads",
-      heads: [
-        {
-          name: "Jasman Kaur",
-          position: "Technical Head",
-          imageUrl: "/headspic/jasman.jpeg",
-          instagramUrl: "https://www.instagram.com/jasmann_05",
-          linkedinUrl: "http://www.linkedin.com/in/jasman05",
-        },
-        {
-          name: "Aditya",
-          position: "Technical Head ",
-          imageUrl: "/headspic/aditya.jpg",
-          instagramUrl:
-            "https://www.instagram.com/adityaa.2.7?igsh=MWI5aHZpY3BwZmVoMg%3D%3D&utm_source=qr",
-          linkedinUrl:
-            "https://www.linkedin.com/in/aditya-sharma-658a69292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         },
       ],
     },

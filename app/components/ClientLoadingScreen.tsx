@@ -1,32 +1,13 @@
-'use client';
+"use client";
+import LoadingScreen from './LoadingScreen';
 
-import dynamic from 'next/dynamic';
-
-// Dynamically import the LoadingScreen with no SSR
-const LoadingScreen = dynamic(
-  () => import('./LoadingScreen').then(mod => mod.default),
-  { ssr: false }
-);
-
-interface ClientLoadingScreenProps {
-  duration?: number;
-  fadeOutDuration?: number;
-  title?: string;
-  subtitle?: string;
-}
-
-export default function ClientLoadingScreen({
-  duration = 1500,
-  fadeOutDuration = 1000,
-  title = "VIRSA",
-  subtitle = "Loading your cultural experience..."
-}: ClientLoadingScreenProps) {
+export default function ClientLoadingScreen() {
   return (
     <LoadingScreen
-      duration={duration}
-      fadeOutDuration={fadeOutDuration}
-      title={title}
-      subtitle={subtitle}
+      duration={1000}
+      fadeOutDuration={500}
+      title="VIRSA"
+      subtitle="Loading your cultural experience..."
     />
   );
 }

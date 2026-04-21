@@ -17,17 +17,9 @@ interface TeamMember {
 }
 
 const coreTeamMembers: TeamMember[] = [
+  
   {
     id: 1,
-    name: "Aakriti",
-    imageUrl: "",
-    socialLinks: {
-      instagram: "https://www.instagram.com/_aakritiiii_2",
-      linkedin: "https://www.linkedin.com/in/aakriti-bansal-97b73534b",
-    },
-  },
-  {
-    id: 2,
     name: "Abhinav Bindra",
     imageUrl: "",
     socialLinks: {
@@ -36,7 +28,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 3,
+    id: 2,
     name: "Agam Singh Kooner",
     imageUrl: "",
     socialLinks: {
@@ -45,7 +37,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 4,
+    id: 3,
     name: "Akshit Mahajan",
     imageUrl: "",
     socialLinks: {
@@ -54,7 +46,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 5,
+    id: 4,
     name: "Angadjot Singh",
     imageUrl: "",
     socialLinks: {
@@ -63,13 +55,13 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 6,
+    id: 5,
     name: "Armaandeep Singh",
     imageUrl: "",
     socialLinks: { instagram: "https://www.instagram.com/dhillonarmaan__" },
   },
   {
-    id: 7,
+    id: 6,
     name: "Ashmeen Kaur",
     imageUrl: "",
     socialLinks: {
@@ -77,13 +69,13 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 8,
+    id: 7,
     name: "Bhumi Arora",
     imageUrl: "",
     socialLinks: { instagram: "https://www.instagram.com/invites/contact/" },
   },
   {
-    id: 9,
+    id: 8,
     name: "Bismanjot Singh",
     imageUrl: "",
     socialLinks: {
@@ -92,7 +84,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 10,
+    id: 9,
     name: "Eaimanjot Singh",
     imageUrl: "",
     socialLinks: {
@@ -101,7 +93,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 11,
+    id: 10,
     name: "Furmaan",
     imageUrl: "",
     socialLinks: {
@@ -109,7 +101,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 12,
+    id: 11,
     name: "Guntas",
     imageUrl: "",
     socialLinks: {
@@ -118,7 +110,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 13,
+    id: 12,
     name: "Gurjeevan Singh",
     imageUrl: "",
     socialLinks: {
@@ -127,13 +119,13 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 14,
+    id: 13,
     name: "Gurleen",
     imageUrl: "",
     socialLinks: { instagram: "https://www.instagram.com/ishq.abaad" },
   },
   {
-    id: 15,
+    id: 14,
     name: "Gurman Singh",
     imageUrl: "",
     socialLinks: {
@@ -142,13 +134,13 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 16,
+    id: 15,
     name: "Harden Singh",
     imageUrl: "",
     socialLinks: { instagram: "https://www.instagram.com/harden_singh_" },
   },
   {
-    id: 17,
+    id: 16,
     name: "Hargunpreet Singh Sujlana",
     imageUrl: "",
     socialLinks: {
@@ -158,7 +150,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 18,
+    id: 17,
     name: "Harshpreet Singh",
     imageUrl: "",
     socialLinks: {
@@ -166,9 +158,9 @@ const coreTeamMembers: TeamMember[] = [
       linkedin: "https://www.linkedin.com/in/harshpreet-singh-482326325",
     },
   },
-  // { id: 19, name: "Harsirat", imageUrl: "", socialLinks: {} },
+  
   {
-    id: 20,
+    id: 18,
     name: "Jagbir Singh",
     imageUrl: "",
     socialLinks: {
@@ -177,7 +169,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 21,
+    id: 19,
     name: "Japji Kaur Bains",
     imageUrl: "",
     socialLinks: {
@@ -186,7 +178,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 22,
+    id: 20,
     name: "Japneet",
     imageUrl: "",
     socialLinks: {
@@ -195,15 +187,15 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 23,
+    id: 21,
     name: "Krish Sally",
     imageUrl: "",
     socialLinks: { instagram: "https://www.instagram.com/krish__sally" },
   },
-  { id: 24, name: "Parneet", imageUrl: "", socialLinks: {} },
-  { id: 25, name: "Nandini", imageUrl: "", socialLinks: {} },
+  { id: 22, name: "Parneet", imageUrl: "", socialLinks: {} },
+  { id: 23, name: "Nandini", imageUrl: "", socialLinks: {} },
   {
-    id: 26,
+    id: 24,
     name: "Prabhsimran Singh",
     imageUrl: "",
     socialLinks: {
@@ -211,9 +203,9 @@ const coreTeamMembers: TeamMember[] = [
       linkedin: "https://www.linkedin.com/in/prabhsimran-singh-945312344/",
     },
   },
-  // { id: 27, name: "Preetinder", imageUrl: "", socialLinks: {} },
+
   {
-    id: 28,
+    id: 25,
     name: "Rabaaz Singh Sidhu",
     imageUrl: "",
     socialLinks: {
@@ -222,7 +214,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 29,
+    id: 26,
     name: "Roopneet Cheema",
     imageUrl: "",
     socialLinks: {
@@ -231,7 +223,16 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 30,
+    id: 28,
+    name: "Sirat Kaur",
+    imageUrl: "",
+    socialLinks: {
+      instagram: "https://www.instagram.com",
+      linkedin: "https://www.linkedin.com",
+    },
+  },
+  {
+    id: 27,
     name: "Sehajpreet Singh Saran",
     imageUrl: "",
     socialLinks: {
@@ -240,7 +241,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 31,
+    id: 28,
     name: "Sharanpreet Kaur",
     imageUrl: "",
     socialLinks: {
@@ -249,7 +250,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 32,
+    id: 29,
     name: "Tanish Garg",
     imageUrl: "",
     socialLinks: {
@@ -258,7 +259,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 33,
+    id: 30,
     name: "Yashika",
     imageUrl: "",
     socialLinks: {
