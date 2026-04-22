@@ -454,7 +454,7 @@ const Heads = () => {
         {
           name: "Hridyum",
           position: "Discipline Head",
-          imageUrl: "https://imagizer.imageshack.com/img924/2394/gXGHJC.jpg",
+          imageUrl: "/headspic/hridyum.jpeg",
           instagramUrl:
             "https://www.instagram.com/hridyum_?igsh=c2psYXFoZDI1dzZi",
           linkedinUrl:
