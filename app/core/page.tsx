@@ -223,7 +223,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 28,
+    id: 27,
     name: "Sirat Kaur",
     imageUrl: "",
     socialLinks: {
@@ -232,7 +232,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 27,
+    id: 28,
     name: "Sehajpreet Singh Saran",
     imageUrl: "",
     socialLinks: {
@@ -241,7 +241,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 28,
+    id: 29,
     name: "Sharanpreet Kaur",
     imageUrl: "",
     socialLinks: {
@@ -250,7 +250,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 29,
+    id: 30,
     name: "Tanish Garg",
     imageUrl: "",
     socialLinks: {
@@ -259,7 +259,7 @@ const coreTeamMembers: TeamMember[] = [
     },
   },
   {
-    id: 30,
+    id: 31,
     name: "Yashika",
     imageUrl: "",
     socialLinks: {
