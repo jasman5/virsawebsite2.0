@@ -1,0 +1,41 @@
+.core-container {
+  background: #1a1a1a;
+  min-height: 100vh;
+  padding: 1rem;  /* Reduced from 2rem */
+  overflow-x: hidden;
+}
+
+.compartment {
+  margin-bottom: 1.5rem;  /* Reduced from 2rem */
+  padding: 1rem;  /* Reduced from 1.5rem */
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.compartment-heading {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 2.5rem;
+  color: #d4a024;
+  margin-bottom: 1rem;  /* Reduced from 1.5rem */
+  padding-left: 1rem;
+  border-left: 5px solid rgba(212, 160, 36, 0.5);
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;  /* Reduced from 1rem */
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+  .cards-container {
+    justify-content: center;
+    gap: 0.25rem;  /* Even smaller gap on mobile */
+  }
+  
+  .compartment {
+    padding: 0.75rem;  /* Smaller padding on mobile */
+  }
+} 
