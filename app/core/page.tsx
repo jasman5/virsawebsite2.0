@@ -30,57 +30,64 @@ interface TeamMember {
 const coreTeamMembers: TeamMember[] = [
   {
     id: 1,
-    name: "Jashandeep",
-    imageUrl: "",
+    name: "Jashan Chauhan",
+    imageUrl: "/corepic/Jashan.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 2,
-    name: "Anterpal Singh Chahal",
-    imageUrl: "",
+    name: "Agam Sarao",
+    imageUrl: "/corepic/Agamveer Singh Kaleka.jpeg",
     bio: "", // TODO: add bio
+    
     socialLinks: {},
   },
   {
     id: 3,
-    name: "Jivitesh Partap Singh",
-    imageUrl: "",
+     name: "Ravneet Sandhu",
+    imageUrl: "/corepic/Ravneet Kaur Sandhu.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
+    
   },
+  
   {
     id: 4,
-    name: "Anmol Grewal",
-    imageUrl: "",
+    name: "Amreen Rooprai",
+    imageUrl: "/corepic/Amren.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
+    
   },
   {
     id: 5,
-    name: "Amreen Rooprai",
-    imageUrl: "",
+     name: "Anmol Grewal",
+    imageUrl: "/corepic/Anmol Singh Grewal.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
+   
+   
   },
   {
     id: 6,
-    name: "Ravneet Sandhu",
+    name: "Anterpal Singh Chahal",
     imageUrl: "",
     bio: "", // TODO: add bio
     socialLinks: {},
+  
   },
   {
     id: 7,
     name: "Avneet Kaur",
-    imageUrl: "",
+    imageUrl: "/corepic/Avneet Kaur.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 8,
     name: "Shubhneet Kaur Sandhu",
-    imageUrl: "",
+    imageUrl: "/corepic/Shubhneet Kaur.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
@@ -94,14 +101,14 @@ const coreTeamMembers: TeamMember[] = [
   {
     id: 10,
     name: "Sehajpreet Singh",
-    imageUrl: "",
+    imageUrl: "/corepic/Sehajpreet Singh.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 11,
     name: "Saanvi Aggarwal",
-    imageUrl: "",
+    imageUrl: "/corepic/Saanvi Aggarwal.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
@@ -115,49 +122,49 @@ const coreTeamMembers: TeamMember[] = [
   {
     id: 13,
     name: "Manmeet Singh Malhotra",
-    imageUrl: "",
+    imageUrl: "/corepic/m.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 14,
     name: "Hitajveer Singh Dhindsa",
-    imageUrl: "",
+    imageUrl: "/corepic/Hitajveer Singh Dhindsa.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 15,
     name: "Sehajpal Singh Cheema",
-    imageUrl: "",
+    imageUrl: "/corepic/Sehajpal Singh Cheema.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 16,
     name: "Talveen Kaur",
-    imageUrl: "",
+    imageUrl: "/corepic/Talveen Kaur.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 17,
     name: "Gunraj Singh",
-    imageUrl: "",
+    imageUrl: "/corepic/Gunraj Singh.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 18,
     name: "Tanveer Singh",
-    imageUrl: "",
+    imageUrl: "/corepic/Tanveer Singh.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 19,
     name: "Karnaaz Kaur",
-    imageUrl: "",
+    imageUrl: "/corepic/Karnaaz Kaur.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
@@ -178,28 +185,28 @@ const coreTeamMembers: TeamMember[] = [
   {
     id: 22,
     name: "Ravaljot Kaur Ahluwalia",
-    imageUrl: "",
+    imageUrl: "/corepic/Ravaljot Kaur.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 23,
     name: "Gunraj Kaur",
-    imageUrl: "",
+    imageUrl: "/corepic/GUNRAJ_KAUR.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 24,
     name: "Gulnaaz Kaur Dhillon",
-    imageUrl: "",
+    imageUrl: "/corepic/Gulnaaz Kaur Dhillon.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 25,
     name: "Sabiha Bhandohal",
-    imageUrl: "",
+    imageUrl: "/corepic/Sabiha.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
@@ -213,63 +220,67 @@ const coreTeamMembers: TeamMember[] = [
   {
     id: 27,
     name: "Garima Narula",
-    imageUrl: "",
+    imageUrl: "/corepic/Garima Narula.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 28,
     name: "Dilnoor Singh",
-    imageUrl: "",
+    imageUrl: "/corepic/dilnoor.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 29,
     name: "Jobanpreet Singh Dhaliwal",
-    imageUrl: "",
+    imageUrl: "/corepic/Jobanpreet Singh.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 30,
     name: "Samridh Chopra",
-    imageUrl: "",
+    imageUrl: "/corepic/Samridh Chopra.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 31,
     name: "Agam Sarao",
-    imageUrl: "",
+    imageUrl: "/corepic/Agamveer Singh Kaleka.jpeg",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+    name: "Jivitesh Partap Singh",
+    imageUrl: "/corepic/Jivetesh.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 32,
     name: "Agamjot Singh Dhingra",
-    imageUrl: "",
+    imageUrl: "/corepic/Agamjot Singh Dhingra.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 33,
     name: "Suhani Nagpal",
-    imageUrl: "",
+    imageUrl: "/corepic/Suhani Nagpal.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 34,
     name: "Karmanjot Singh",
-    imageUrl: "",
+    imageUrl: "/corepic/Karmanjot Singh Kaler.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 35,
     name: "Sukhmanjot Singh Sandhu",
-    imageUrl: "",
+    imageUrl: "/corepic/Sukhmanjot Singh.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
@@ -283,27 +294,19 @@ const coreTeamMembers: TeamMember[] = [
   {
     id: 37,
     name: "Parminderjeet Singh",
-    imageUrl: "",
+    imageUrl: "/corepic/Parminderjeet Singh.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 38,
     name: "Bhumika Garg",
-    imageUrl: "",
+    imageUrl: "/corepic/Bhumika Garg.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
 ];
 
-// Gets initials from name e.g. "Jasman Kaur" → "JK"
-const getInitials = (name: string) => {
-  return name
-    .split(" ")
-    .map((n) => n[0])
-    .join("")
-    .toUpperCase();
-};
 // Gets initials from name e.g. "Jasman Kaur" → "JK"
 const getInitials = (name: string) => {
   return name
