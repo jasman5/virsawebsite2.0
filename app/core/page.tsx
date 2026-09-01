@@ -27,102 +27,96 @@ interface TeamMember {
   };
 }
 
-const coreTeamMembers: TeamMember[] = [
+const coreTeamMembers: TeamMember[] = 
+  [
   {
     id: 1,
-    name: "Jashan Chauhan",
-    imageUrl: "/corepic/Jashan.jpeg",
+    name: "Agam Sarao",
+    imageUrl: "/corepic/Agamveer Singh Kaleka.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 2,
-    name: "Agam Sarao",
-    imageUrl: "/corepic/Agamveer Singh Kaleka.jpeg",
+    name: "Agamjot Singh Dhingra",
+    imageUrl: "/corepic/Agamjot Singh Dhingra.jpeg",
     bio: "", // TODO: add bio
-    
     socialLinks: {},
   },
   {
     id: 3,
-     name: "Ravneet Sandhu",
-    imageUrl: "/corepic/Ravneet Kaur Sandhu.jpeg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-    
-  },
-  
-  {
-    id: 4,
     name: "Amreen Rooprai",
     imageUrl: "/corepic/Amren.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
-    
   },
   {
-    id: 5,
-     name: "Anmol Grewal",
-    imageUrl: "/corepic/Anmol Singh Grewal.jpg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-   
-   
-  },
-  {
-    id: 6,
+    id: 4,
     name: "Anterpal Singh Chahal",
     imageUrl: "",
     bio: "", // TODO: add bio
     socialLinks: {},
-  
   },
   {
-    id: 7,
+    id: 5,
     name: "Avneet Kaur",
     imageUrl: "/corepic/Avneet Kaur.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
+    id: 6,
+    name: "Bhumika Garg",
+    imageUrl: "/corepic/Bhumika Garg.jpeg",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
+    id: 7,
+    name: "Birpartap Singh Bhullar",
+    imageUrl: "",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
     id: 8,
-    name: "Shubhneet Kaur Sandhu",
-    imageUrl: "/corepic/Shubhneet Kaur.jpg",
+    name: "Dilnoor Singh",
+    imageUrl: "/corepic/dilnoor.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 9,
-    name: "Jaiveer Singh Sidhu",
-    imageUrl: "",
+    name: "Garima Narula",
+    imageUrl: "/corepic/Garima Narula.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 10,
-    name: "Sehajpreet Singh",
-    imageUrl: "/corepic/Sehajpreet Singh.jpeg",
+    name: "Gulnaaz Kaur Dhillon",
+    imageUrl: "/corepic/Gulnaaz Kaur Dhillon.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 11,
-    name: "Saanvi Aggarwal",
-    imageUrl: "/corepic/Saanvi Aggarwal.jpg",
+    name: "Gunraj Kaur",
+    imageUrl: "/corepic/GUNRAJ_KAUR.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 12,
-    name: "Simargeet Kaur",
-    imageUrl: "",
+    name: "Gunraj Singh",
+    imageUrl: "/corepic/Gunraj Singh.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 13,
-    name: "Manmeet Singh Malhotra",
-    imageUrl: "/corepic/m.jpg",
+    name: "Gurleen Kaur",
+    imageUrl: "",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
@@ -135,145 +129,141 @@ const coreTeamMembers: TeamMember[] = [
   },
   {
     id: 15,
-    name: "Sehajpal Singh Cheema",
-    imageUrl: "/corepic/Sehajpal Singh Cheema.jpg",
+    name: "Jaiveer Singh Sidhu",
+    imageUrl: "",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 16,
-    name: "Talveen Kaur",
-    imageUrl: "/corepic/Talveen Kaur.jpeg",
+    name: "Jashan Chauhan",
+    imageUrl: "/corepic/JJASHAN.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 17,
-    name: "Gunraj Singh",
-    imageUrl: "/corepic/Gunraj Singh.jpg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-  },
-  {
-    id: 18,
-    name: "Tanveer Singh",
-    imageUrl: "/corepic/Tanveer Singh.jpg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-  },
-  {
-    id: 19,
-    name: "Karnaaz Kaur",
-    imageUrl: "/corepic/Karnaaz Kaur.jpg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-  },
-  {
-    id: 20,
-    name: "Ramanbir Singh",
-    imageUrl: "/corepic/ramanbir.jpg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-  },
-  {
-    id: 21,
-    name: "Nishtha Uppal",
-    imageUrl: "",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-  },
-  {
-    id: 22,
-    name: "Ravaljot Kaur Ahluwalia",
-    imageUrl: "/corepic/Ravaljot Kaur.jpeg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-  },
-  {
-    id: 23,
-    name: "Gunraj Kaur",
-    imageUrl: "/corepic/GUNRAJ_KAUR.jpg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-  },
-  {
-    id: 24,
-    name: "Gulnaaz Kaur Dhillon",
-    imageUrl: "/corepic/Gulnaaz Kaur Dhillon.jpeg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-  },
-  {
-    id: 25,
-    name: "Sabiha Bhandohal",
-    imageUrl: "/corepic/Sabiha.jpg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-  },
-  {
-    id: 26,
-    name: "Gurleen Kaur",
-    imageUrl: "",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-  },
-  {
-    id: 27,
-    name: "Garima Narula",
-    imageUrl: "/corepic/Garima Narula.jpg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-  },
-  {
-    id: 28,
-    name: "Dilnoor Singh",
-    imageUrl: "/corepic/dilnoor.jpeg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-  },
-  {
-    id: 29,
-    name: "Jobanpreet Singh Dhaliwal",
-    imageUrl: "/corepic/Jobanpreet Singh.jpeg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-  },
-  {
-    id: 30,
-    name: "Samridh Chopra",
-    imageUrl: "/corepic/Samridh Chopra.jpg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
-  },
-  {
-    id: 31,
-    name: "Agam Sarao",
-    imageUrl: "/corepic/Agamveer Singh Kaleka.jpeg",
-    bio: "", // TODO: add bio
-    socialLinks: {},
     name: "Jivitesh Partap Singh",
     imageUrl: "/corepic/Jivetesh.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
+    id: 18,
+    name: "Jobanpreet Singh Dhaliwal",
+    imageUrl: "/corepic/Jobanpreet Singh.jpeg",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
+    id: 19,
+    name: "Karmanjot Singh",
+    imageUrl: "/corepic/Karmanjot Singh Kaler.jpg",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
+    id: 20,
+    name: "Karnaaz Kaur",
+    imageUrl: "/corepic/Karnaaz Kaur.jpg",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
+    id: 21,
+    name: "Manmeet Singh Malhotra",
+    imageUrl: "/corepic/m.jpg",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
+    id: 22,
+    name: "Nishtha Uppal",
+    imageUrl: "",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
+    id: 23,
+    name: "Parminderjeet Singh",
+    imageUrl: "/corepic/Parminderjeet Singh.jpg",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
+    id: 24,
+    name: "Ramanbir Singh",
+    imageUrl: "",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
+    id: 25,
+    name: "Ravaljot Kaur Ahluwalia",
+    imageUrl: "/corepic/Ravaljot Kaur.jpeg",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
+    id: 26,
+    name: "Ravneet Sandhu",
+    imageUrl: "/corepic/Ravneet Kaur Sandhu.jpeg",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
+    id: 27,
+    name: "Saanvi Aggarwal",
+    imageUrl: "/corepic/Saanvi Aggarwal.jpg",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
+    id: 28,
+    name: "Sabiha Bhandohal",
+    imageUrl: "/corepic/Sabiha.jpg",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
+    id: 29,
+    name: "Samridh Chopra",
+    imageUrl: "/corepic/Samridh Chopra.jpg",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
+    id: 30,
+    name: "Sehajpal Singh Cheema",
+    imageUrl: "/corepic/Sehajpal Singh Cheema.jpg",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
+    id: 31,
+    name: "Sehajpreet Singh",
+    imageUrl: "/corepic/Sehajpreet Singh.jpeg",
+    bio: "", // TODO: add bio
+    socialLinks: {},
+  },
+  {
     id: 32,
-    name: "Agamjot Singh Dhingra",
-    imageUrl: "/corepic/Agamjot Singh Dhingra.jpeg",
+    name: "Shubhneet Kaur Sandhu",
+    imageUrl: "/corepic/Shubhneet Kaur.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 33,
-    name: "Suhani Nagpal",
-    imageUrl: "/corepic/Suhani Nagpal.jpg",
+    name: "Simargeet Kaur",
+    imageUrl: "",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 34,
-    name: "Karmanjot Singh",
-    imageUrl: "/corepic/Karmanjot Singh Kaler.jpg",
+    name: "Suhani Nagpal",
+    imageUrl: "/corepic/Suhani Nagpal.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
@@ -286,25 +276,25 @@ const coreTeamMembers: TeamMember[] = [
   },
   {
     id: 36,
-    name: "Birpartap Singh Bhullar",
-    imageUrl: "",
+    name: "Talveen Kaur",
+    imageUrl: "/corepic/Talveen Kaur.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 37,
-    name: "Parminderjeet Singh",
-    imageUrl: "/corepic/Parminderjeet Singh.jpg",
+    name: "Tanveer Singh",
+    imageUrl: "/corepic/Tanveer Singh.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
   {
     id: 38,
-    name: "Bhumika Garg",
-    imageUrl: "/corepic/Bhumika Garg.jpeg",
+    name: "Anmol Grewal",
+    imageUrl: "/corepic/Anmol Singh Grewal.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
-  },
+  }
 ];
 
 // Gets initials from name e.g. "Jasman Kaur" → "JK"

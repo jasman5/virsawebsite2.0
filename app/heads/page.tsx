@@ -309,7 +309,7 @@ const Heads = () => {
         {
           name: "Akshit Mahajan",
           position: "Cultural Head",
-          description: "A Man Of God Is Unstoppable.",
+          description: "An individual who leads with the belief that when my people rise, I rise with them. A firm believer in God’s plan carrying an unwavering hunger for success and find my greatest fulfillment in turning my team’s potential into something extraordinary and beneath it what all lies is never settling, always striving to push myself and my team beyond what we thought was possible.",
           imageUrl: "/headspic/Akshit Mahajan.jpg",
           instagramUrl:
             "https://www.instagram.com/akshhit_mahajann?igsh=N2NvM3Q4ZDVra3Ny&utm_source=qr",
