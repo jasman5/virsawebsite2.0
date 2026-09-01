@@ -1,4 +1,5 @@
 "use client";
+
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -232,34 +233,23 @@ const Heads = () => {
   // General Secretaries
   const genSecs: GenSecCardProps[] = [
     {
-      name: "Harmandeep Singh",
+      name: "Udaypratap Singh",
       position: "General Secretary",
       description:
-        "Leading our cultural initiatives with passion and dedication to preserve and promote Punjabi heritage through innovative events and programs.",
-      imageUrl: "/headspic/harmandeep.jpg",
-      instagramUrl: "https://www.instagram.com/harmandhiman55_",
-      linkedinUrl:
-        "https://www.linkedin.com/in/harmandeep-singh-84a8b5222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "The one keeping things moving behind the scenes. Leading with purpose, bringing people together, and making Virsa happen.",
+      imageUrl: "/headspic/UDAYPARTAP SINGH.JPG",
+      instagramUrl:
+        "https://www.instagram.com/udaypartapsingh.brar?igsi=enB0OG45cWRvNWFl",
     },
     {
-      name: "Anureet Kaur",
+      name: "Jasmine Kaur",
       position: "General Secretary",
-      description:
-        "Coordinating events and managing our team operations with a focus on authentic cultural representation and community engagement.",
-      imageUrl: "/headspic/anureet.jpeg",
-      instagramUrl:
-        "https://www.instagram.com/anureeet.cheema?igsh=YXZ5cWNlb2hlcDB0",
-      linkedinUrl: "https://www.linkedin.com/in/anureet-cheema-87ab43232/",
+      imageUrl: "",
     },
     {
-      name: "Sukhman",
+      name: "Meharpreet Singh",
       position: "General Secretary",
-      description:
-        "Preserving and promoting authentic Punjabi traditions while developing strategic partnerships to expand our cultural impact.",
-      imageUrl: "/headspic/sukhman.jpg",
-      instagramUrl:
-        "https://www.instagram.com/sukhmxnnn_?igsh=eDJmYzM4cXFpcWFq",
-      linkedinUrl: "https://www.linkedin.com/in/sukhman-singh-323231253",
+      imageUrl: "",
     },
   ];
 
@@ -268,45 +258,23 @@ const Heads = () => {
     {
       title: "Convenors",
       heads: [
-       
         {
-          name: "Jasmine Kaur",
-          position: "Convevor",
-          imageUrl: "https://imagizer.imageshack.com/img922/8199/JxqZpN.jpg",
-          instagramUrl:
-            "https://www.instagram.com/jasmine_28kaur?igsh=eTZqeXh0dmF0NGl5&utm_source=qr",
+          name: "Roopneet Cheema",
+          position: "Convener",
+          description:
+            "A creative, driven, and approachable person who brings great energy to everything they do, is always curious to explore new ideas, and genuinely enjoys learning, collaborating, and taking on new challenges.",
+          imageUrl: "/headspic/Roopneet Cheema.jpg",
+          instagramUrl: "https://www.instagram.com/cheema._.8",
           linkedinUrl:
-            "https://www.linkedin.com/in/jasmine-kaur-765051297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        },
-         {
-          name: "Uday Brar",
-          position: "Convenor",
-          imageUrl: "/headspic/uday.jpeg",
-          instagramUrl:
-            "https://www.linkedin.com/in/udaypartap-singh-586559304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-          linkedinUrl:
-            "https://www.instagram.com/udaypartap.singh.brar?igsh=enB0OG45cWRvNWFl",
-        }
-      ],
-    },
-    {
-      title: "Technical Heads",
-      heads: [
-        {
-          name: "Jasman Kaur",
-          position: "Technical Head",
-          imageUrl: "/headspic/jasman.jpeg",
-          instagramUrl: "https://www.instagram.com/jasmann_05",
-          linkedinUrl: "http://www.linkedin.com/in/jasman05",
+            "https://www.linkedin.com/in/roopneet-cheema-614ba9302?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         },
         {
-          name: "Aditya",
-          position: "Technical Head ",
-          imageUrl: "/headspic/aditya.jpg",
-          instagramUrl:
-            "https://www.instagram.com/adityaa.2.7?igsh=MWI5aHZpY3BwZmVoMg%3D%3D&utm_source=qr",
-          linkedinUrl:
-            "https://www.linkedin.com/in/aditya-sharma-658a69292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+          name: "Agam Kooner",
+          position: "Convener",
+          description:
+            "Proudly part of Virsa, bringing ideas, keeping our culture alive, and creating experiences that bring us together.",
+          imageUrl: "/headspic/Agam Singh.jpg",
+          instagramUrl: "https://www.instagram.com/agam_kooner18",
         },
       ],
     },
@@ -314,22 +282,14 @@ const Heads = () => {
       title: "Content Heads",
       heads: [
         {
-          name: "Japneet",
+          name: "Yashika",
           position: "Content Head",
-          imageUrl: "/headspic/japneethead.JPG",
-          instagramUrl:
-            "https://www.instagram.com/japneetsoni_?igsh=YWhmdzBhajBha3o5&utm_source=qr",
+          description:
+            "I'm Yashika Sherawat, a creative and enthusiastic student who enjoys content creation, marketing, and working with people. I like taking initiative, exploring new ideas, and contributing to events and teams.",
+          imageUrl: "/headspic/Yashika.jpg",
+          instagramUrl: "https://www.instagram.com/_yashika_sherawat_",
           linkedinUrl:
-            "https://www.linkedin.com/in/japneet-kaur-8a89a825a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        },
-        {
-          name: "Amitoj Singh",
-          position: "Content Head",
-          imageUrl: "https://imagizer.imageshack.com/img922/9017/NSlPm5.png",
-          instagramUrl:
-            "https://www.instagram.com/amitojammy04?igsh=MWJjcm9lZGl1eGN0aA%3D%3D&utm_source=qr",
-          linkedinUrl:
-            "https://www.linkedin.com/in/amitoj-singh-65424b287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "https://www.linkedin.com/in/yashika-722899321?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         },
       ],
     },
@@ -337,152 +297,92 @@ const Heads = () => {
       title: "Creativity Heads",
       heads: [
         {
-          name: "Uday",
+          name: "Furmaan Kaur",
           position: "Creativity Head",
-          imageUrl: "/headspic/uday.jpeg",
-          instagramUrl:
-            "https://www.instagram.com/udaypartap.singh.brar?igsh=enB0OG45cWRvNWFl",
-          linkedinUrl:
-            "https://www.linkedin.com/in/udaypartap-singh-586559304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        },
-        {
-          name: "Sahibnoor Kaur",
-          position: "Creativity Head",
-          imageUrl: "/headspic/sahibnoor.jpg",
-          instagramUrl:
-            "https://www.instagram.com/sahibnoor_.kahlon?igsh=aWkxZ3JuNjc4ODdr",
-          linkedinUrl:
-            "https://www.linkedin.com/in/sahibnoor-kaur-388943327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        },
-        {
-          name: "Mankeerat Singh",
-          position: "Creativity Head",
-          imageUrl: "/headspic/mankeerat.jpeg",
-          instagramUrl:
-            "https://www.instagram.com/mankeerat_1007?igsh=bHZtYWsxdTRwajBs&utm_source=qr",
-          linkedinUrl:
-            "https://www.linkedin.com/in/mankeerat-singh-850915268?trk=contact-info",
-        },
-        {
-          name: "Palak Garg",
-          position: "Creativity Head",
-          imageUrl: "/headspic/palak.jpeg",
-          instagramUrl:
-            "https://www.instagram.com/_.palakkx._?igsh=MXdwemJuMG11M2czbQ==",
-          linkedinUrl:
-            "https://www.linkedin.com/in/palak-garg-bb149b28a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+          imageUrl: "/headspic/furmaan kaur.jpg",
         },
       ],
     },
     {
       title: "Cultural Heads",
       heads: [
-         {
-          name: "Harnoor Kaur",
+        {
+          name: "Akshit Mahajan",
           position: "Cultural Head",
-          imageUrl: "/headspic/harnoor.jpg",
+          description: "A Man Of God Is Unstoppable.",
+          imageUrl: "/headspic/Akshit Mahajan.jpg",
           instagramUrl:
-            "https://www.instagram.com/harnoor7024?igsh=bG9uc3d3MnBzc2Zn&utm_source=qr",
+            "https://www.instagram.com/akshhit_mahajann?igsh=N2NvM3Q4ZDVra3Ny&utm_source=qr",
           linkedinUrl:
-            "https://www.linkedin.com/in/harnoorkaur2004?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "https://www.linkedin.com/in/akshit-mahajan-87361335b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         },
         {
-          name: "Dapinder",
+          name: "Sharanpreet Kaur",
           position: "Cultural Head",
-          imageUrl: "https://imagizer.imageshack.com/img923/6814/4zjPzl.jpg",
-          instagramUrl:
-            "https://www.instagram.com/dapindersinghbadesha?igsh=MWMwZnhzb2dsdnZxbg%3D%3D&utm_source=qr",
-          linkedinUrl: "https://linkedin.com",
-        },
-       
-        {
-          name: "Maheep",
-          position: "Cultural Head",
-          imageUrl: "/headspic/maheep.jpg",
-          instagramUrl:
-            "https://www.instagram.com/_mxdhnju_?igsh=YzE2cmd2eHUyM3c0&utm_source=qr",
-          linkedinUrl:
-            "https://www.linkedin.com/in/maheep-singh-dhanju-b5434b28b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
-        },
-
-        {
-          name: "Arsh",
-          position: "Cultural Head",
-          imageUrl: "/headspic/arshdeep.jpg",
-          instagramUrl:
-            "https://www.instagram.com/anureeet.cheema?igsh=YXZ5cWNlb2hlcDB0",
-          linkedinUrl: "https://www.linkedin.com/in/anureet-cheema-87ab43232/",
+          description:
+            "I serve as the Cultural Head of Virsa, where I lead the planning and execution of cultural events, festivals, and performances that celebrate Punjabi heritage and tradition. Passionate about keeping our roots alive, I work with fellow members to create programs that honor our past while inspiring the present generation.",
+          imageUrl: "/headspic/Sharan Preet Kaur.jpg",
         },
       ],
     },
-    {
-      title: "Design Heads",
-      heads: [
-        {
-          name: "Jahanvi",
-          position: "Design Head",
-          imageUrl: "/headspic/jahanvi.jpg",
-          instagramUrl:
-            "https://www.instagram.com/jahanvisinghal_15?igsh=MXh2dTRuM3RkNndlbQ==",
-          linkedinUrl:
-            "https://www.linkedin.com/in/jahanvi-singhal-33981b29a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        },
-        {
-          name: "Prakhar",
-          position: "Design Head",
-          imageUrl: "/headspic/prakhar.jpg",
-          instagramUrl: "https://www.instagram.com/prakhar_0320/",
-          linkedinUrl: "https://www.linkedin.com/in/prakhar-saxena-554405295/",
-        }
-        
-       
-      ],
-    },
-
     {
       title: "Discipline Heads",
       heads: [
         {
-          name: "Pahul",
+          name: "Japji Kaur Bains",
           position: "Discipline Head",
-          imageUrl: "/headspic/pahul.jpeg",
-          instagramUrl:
-            "https://www.instagram.com/pahuldeepbajwa?igsh=NjR6bGY1bzVlNmY1&utm_source=qr",
+          description: "Somewhere between a daydream and a destination.",
+          imageUrl: "/headspic/Japji Kaur Bains.jpg",
+          instagramUrl: "https://www.instagram.com/japji.bains22?igsh=eWVxeG1mcHJubGhj",
           linkedinUrl:
-            "https://www.linkedin.com/in/pahul-bajwa-313524304?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+            "https://www.linkedin.com/in/japji-kaur-bains-a25bb1336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
         {
-          name: "Hridyum",
+          name: "Abhinav Bindra",
           position: "Discipline Head",
-          imageUrl: "/headspic/hridyum.jpeg",
-          instagramUrl:
-            "https://www.instagram.com/hridyum_?igsh=c2psYXFoZDI1dzZi",
-          linkedinUrl:
-            "https://www.linkedin.com/in/hridyum-bindal-772383312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          description: "Calm mind, chaotic humour.",
+          imageUrl: "/headspic/Abhinav Bindra.jpg",
+          instagramUrl: "https://www.instagram.com/abhi_bindra",
+          linkedinUrl: "https://www.linkedin.com/in/abhinav-bindra-55a5163b4",
+        },
+        {
+          name: "Harden Singh",
+          position: "Discipline Head",
+          description:
+            "I'm Harden Singh, student of Chemical Engineering (3rd year), Head of Gurupurab and Discipline.",
+          imageUrl: "/headspic/Harden Singh.jpg",
+          instagramUrl: "https://www.instagram.com/Harden_singh_",
+          linkedinUrl: "https://www.linkedin.com/in/harden-singh-778a98396",
         },
       ],
     },
-
     {
       title: "Documentation and Finance Heads",
       heads: [
         {
-          name: "Meharpreet Singh",
-          position: "Documentation and Finance Head",
-          imageUrl: "/headspic/mehar.jpeg",
+          name: "Sehajpreet Singh Saran",
+          position: "Finance Head",
+          description: "Let's get it done.",
+          imageUrl: "/headspic/Sehajpreet Singh Saran.jpg",
           instagramUrl:
-            "https://www.instagram.com/_mehar96?igsh=NzV3OGU3OXlxN3Bu",
+            "https://www.instagram.com/sehaj_.saran?igsi=MWhqOG5kYTdlZHZ0ag==",
           linkedinUrl:
-            "https://www.linkedin.com/in/meharpreet-singh-594109244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "https://www.linkedin.com/in/sehajpreet-singh-saran-505964386",
         },
+      ],
+    },
+    {
+      title: "Event Coordinators",
+      heads: [
         {
-          name: "Jasmine Kaur",
-          position: "Documentation and Finance Head",
-          imageUrl: "https://imagizer.imageshack.com/img922/8199/JxqZpN.jpg",
+          name: "Sehajpreet Singh Saran",
+          position: "Event Coordinator",
+          description: "Let's get it done.",
+          imageUrl: "/headspic/Sehajpreet Singh Saran.jpg",
           instagramUrl:
-            "https://www.instagram.com/jasmine_28kaur?igsh=eTZqeXh0dmF0NGl5&utm_source=qr",
+            "https://www.instagram.com/sehaj_.saran?igsi=MWhqOG5kYTdlZHZ0ag==",
           linkedinUrl:
-            "https://www.linkedin.com/in/jasmine-kaur-765051297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "https://www.linkedin.com/in/sehajpreet-singh-saran-505964386",
         },
       ],
     },
@@ -490,29 +390,20 @@ const Heads = () => {
       title: "Gurpurab Heads",
       heads: [
         {
-          name: "Harnoor Kaur",
+          name: "Harden Singh",
           position: "Gurpurab Head",
-          imageUrl: "/headspic/harnoor.jpg",
-          instagramUrl:
-            "https://www.instagram.com/harnoor7024?igsh=bG9uc3d3MnBzc2Zn&utm_source=qr",
-          linkedinUrl:
-            "https://www.linkedin.com/in/harnoorkaur2004?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+          description:
+            "I'm Harden Singh, student of Chemical Engineering (3rd year), Head of Gurupurab and Discipline.",
+          imageUrl: "/headspic/Harden Singh.jpg",
+          instagramUrl: "https://www.instagram.com/Harden_singh_",
+          linkedinUrl: "https://www.linkedin.com/in/harden-singh-778a98396",
         },
         {
-          name: "Dhanveer",
+          name: "Ashmeen Kaur",
           position: "Gurpurab Head",
-          imageUrl: "/headspic/dhanveer.jpg",
-          instagramUrl:
-            "https://www.instagram.com/dhaliwal_____0018?igsh=ejVmN2xucmZuYnF5",
-          linkedinUrl: "https://linkedin.com",
-        },
-        {
-          name: "Harnoor Singh Khalsa",
-          position: "Gurpurab Head",
-          imageUrl: "/headspic/harnoorkhalsa.jpeg",
-          instagramUrl:
-            "https://www.instagram.com/singh_manmeet_official?igsh=c2l4djUzMXYwaXlz",
-          linkedinUrl: "https://www.linkedin.com/in/manmeet-singh-56b544263",
+          description:
+            "I am Ashmeen Kaur, the Gurpurab Head at VIRSA. I value guidance, shared learning, and thoughtful conversations. I'm always happy to offer support where my experience may be useful, including discussions about spirituality and personal growth.",
+          imageUrl: "/headspic/Ashmeen Kaur.jpg",
         },
       ],
     },
@@ -520,31 +411,17 @@ const Heads = () => {
       title: "Hospitality Heads",
       heads: [
         {
-          name: "Arshia",
+          name: "Diya Mahajan",
           position: "Hospitality Head",
-          imageUrl: "https://imagizer.imageshack.com/img924/8975/5r6xTG.jpg",
-          instagramUrl:
-            "https://www.instagram.com/arshia._08?igsh=ZjllbTBua2QzcGo3",
-          linkedinUrl:
-            "https://www.linkedin.com/in/arshia-5a56aa295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          description:
+            "Hi, I'm Diya Mahajan, enjoys interacting with people, managing responsibilities, and creating a welcoming experience at events. With strong communication and teamwork skills, I'm excited to contribute to the society as a Publicity & Hospitality Head.",
+          imageUrl: "/headspic/Diya Mahajan.jpg",
         },
         {
-          name: "Gurkirat",
+          name: "Nandini Shekhar",
           position: "Hospitality Head",
-          imageUrl: "https://imagizer.imageshack.com/img923/4139/gtk7De.jpg",
-          instagramUrl:
-            "https://www.instagram.com/sxndhugurkirat?igsh=MWNrcGt1YWxhNjdmMw==",
-          linkedinUrl:
-            "https://www.linkedin.com/in/gurkirat-singh-60639a2a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        },
-        {
-          name: "Harnoor Kaur",
-          position: "Hospitality Head",
-          imageUrl: "/headspic/harnoork.jpeg",
-          instagramUrl:
-            "https://www.instagram.com/harnoor7024?igsh=bG9uc3d3MnBzc2Zn&utm_source=qr",
-          linkedinUrl:
-            "https://www.linkedin.com/in/harnoorkaur2004?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+          description: "Nandini this sidee!!",
+          imageUrl: "/headspic/Nandini Shekhar.jpg",
         },
       ],
     },
@@ -552,20 +429,14 @@ const Heads = () => {
       title: "Logistics Heads",
       heads: [
         {
-          name: "Ishaanpreet Singh",
+          name: "Akshit Mahajan",
           position: "Logistics Head",
-          imageUrl: "/headspic/ishaanpreet.jpg",
+          description: "A Man Of God Is Unstoppable.",
+          imageUrl: "/headspic/Akshit Mahajan.jpg",
           instagramUrl:
-            "https://www.instagram.com/_ishaanpreet_?igsh=MTZybng0b2I5cDloMA%3D%3D&utm_source=qr",
+            "https://www.instagram.com/akshhit_mahajann?igsh=N2NvM3Q4ZDVra3Ny&utm_source=qr",
           linkedinUrl:
-            "https://www.linkedin.com/in/ishanpreet-singh-4ab0aa26b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        },
-        {
-          name: "Tarandeep Singh",
-          position: "Logistics Head",
-          imageUrl: "/headspic/taranpreet.jpg",
-          instagramUrl: "https://www.instagram.com/_deepkapoor/",
-          linkedinUrl: "https://www.linkedin.com/in/tarandeep-singh-ab4067288/",
+            "https://www.linkedin.com/in/akshit-mahajan-87361335b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         },
       ],
     },
@@ -573,74 +444,76 @@ const Heads = () => {
       title: "Marketing Heads",
       heads: [
         {
-          name: "Dilpreet",
+          name: "Hargunpreet Singh Sujlana",
           position: "Marketing Head",
-          imageUrl: "/headspic/dilpreet.jpeg",
+          description:
+            "Ambitious enough to chase big things, curious enough to keep learning, and chill enough to enjoy the journey.",
+          imageUrl: "/headspic/Hargunpreet S Sujlana.jpg",
           instagramUrl:
-            "https://www.instagram.com/dilpreetrattol_?igsh=MWdwdmJpNW12MHNiYg%3D%3D&utm_source=qr",
+            "https://www.instagram.com/hargunpreet._?igsh=MTF3cGU2dHgzYmJyaw%3D%3D&utm_source=qr",
           linkedinUrl:
-            "https://www.linkedin.com/in/dilpreetrattol?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "https://www.linkedin.com/in/hargunpreet-singh-sujlana-5b4793305?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         },
         {
-          name: "Vinay",
+          name: "Yashika",
           position: "Marketing Head",
-          imageUrl: "/headspic/vinayy.jpeg",
-          instagramUrl:
-            "https://www.instagram.com/vinaybrar_?igsh=MTVsZjA4OGswcGtlcQ==",
+          description:
+            "I'm Yashika Sherawat, a creative and enthusiastic student who enjoys content creation, marketing, and working with people. I like taking initiative, exploring new ideas, and contributing to events and teams.",
+          imageUrl: "/headspic/Yashika.jpg",
+          instagramUrl: "https://www.instagram.com/_yashika_sherawat_",
           linkedinUrl:
-            "https://www.linkedin.com/in/vinaypartap-singh-brar-4717b1275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+            "https://www.linkedin.com/in/yashika-722899321?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         },
-        {
-          name: "Jugadh Singh",
-          position: "Marketing Head",
-          imageUrl: "/headspic/jugadh.jpeg",
-          instagramUrl: "https://www.instagram.com/jugadh_.singh/",
-          linkedinUrl: "https://www.linkedin.com/in/jugadh-singh-a26236357/",
-        },
-        {
-          name: "Aditya",
-          position: "Marketing Head",
-          imageUrl: "/headspic/aditya.jpg",
-          instagramUrl:
-            "https://www.instagram.com/adityaa.2.7?igsh=MWI5aHZpY3BwZmVoMg%3D%3D&utm_source=qr",
-          linkedinUrl:
-            "https://www.linkedin.com/in/aditya-sharma-658a69292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        },
-      ],
-    },
-    {
-      title: "Media Heads",
-      heads: [
-        {
-          name: "Shehbaaz",
-          position: "Media Head",
-          imageUrl: "https://imagizer.imageshack.com/img922/4065/a5RWhe.jpg",
-          instagramUrl:
-            "https://www.instagram.com/sidhushehbaz?igsh=ZXFhemY2dzdpaG5p&utm_source=qr",
-          linkedinUrl: "https://www.linkedin.com/in/shehbaz-ssidhu/",
-        },
-     
       ],
     },
     {
       title: "Publicity Heads",
       heads: [
         {
-          name: "Meharpreet Singh",
+          name: "Hargunpreet Singh Sujlana",
           position: "Publicity Head",
-          imageUrl: "/headspic/mehar.jpeg",
+          description:
+            "Ambitious enough to chase big things, curious enough to keep learning, and chill enough to enjoy the journey.",
+          imageUrl: "/headspic/Hargunpreet S Sujlana.jpg",
           instagramUrl:
-            "https://www.instagram.com/_mehar96?igsh=NzV3OGU3OXlxN3Bu",
+            "https://www.instagram.com/hargunpreet._?igsh=MTF3cGU2dHgzYmJyaw%3D%3D&utm_source=qr",
           linkedinUrl:
-            "https://www.linkedin.com/in/meharpreet-singh-594109244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            "https://www.linkedin.com/in/hargunpreet-singh-sujlana-5b4793305?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         },
         {
-          name: "Jasman Kaur",
+          name: "Diya Mahajan",
           position: "Publicity Head",
-          imageUrl: "/headspic/jasman.jpeg",
-          instagramUrl: "https://www.instagram.com/jasmann_05",
-          linkedinUrl: "http://www.linkedin.com/in/jasman05",
+          description:
+            "Hi, I'm Diya Mahajan, enjoys interacting with people, managing responsibilities, and creating a welcoming experience at events. With strong communication and teamwork skills, I'm excited to contribute to the society as a Publicity & Hospitality Head.",
+          imageUrl: "/headspic/Diya Mahajan.jpg",
         },
+      ],
+    },
+    {
+      title: "Overall Student Coordinator",
+      heads: [
+        {
+          name: "Harnoor Kaur",
+          position: "Overall Student Coordinator",
+          imageUrl: "/headspic/",
+        },
+      ],
+    },
+    {
+      title: "Other Heads",
+      heads: [
+        { name: "Angadjot Singh", position: "Head", imageUrl: "" },
+        { name: "Bhavdeep Singh", position: "Head", imageUrl: "" },
+        { name: "Bismanjot Singh", position: "Head", imageUrl: "" },
+        { name: "Eaimanjot Singh", position: "Head", imageUrl: "" },
+        { name: "Gurman Singh", position: "Head", imageUrl: "" },
+        { name: "Gurmanjot Singh", position: "Head", imageUrl: "" },
+        { name: "Manavver Singh", position: "Head", imageUrl: "" },
+        { name: "Paramveer Singh", position: "Head", imageUrl: "" },
+        { name: "Rabaaz Sidhu", position: "Head", imageUrl: "" },
+        { name: "Sajneet Garewal", position: "Head", imageUrl: "" },
+        { name: "Sirat Kaur", position: "Head", imageUrl: "" },
+        { name: "Tarandeep Singh", position: "Head", imageUrl: "" },
       ],
     },
   ];

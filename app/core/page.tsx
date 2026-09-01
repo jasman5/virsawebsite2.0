@@ -171,7 +171,7 @@ const coreTeamMembers: TeamMember[] = [
   {
     id: 20,
     name: "Ramanbir Singh",
-    imageUrl: "",
+    imageUrl: "/corepic/ramanbir.jpg",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
