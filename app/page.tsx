@@ -72,7 +72,7 @@ export default function Home() {
                 Join Virsa Cultural Society - Open for 1st and 2nd Year Students
               </p>
               <a
-                href="YOUR_GOOGLE_FORM_URL_HERE"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfG5k6Q21EEmabCJb9QAEn-x45sN38YZtxnXToncoDUt83Zcw/viewform?usp=publish-editor"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-4 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-full shadow-lg transition-all duration-300 transform hover:-translate-y-1"
