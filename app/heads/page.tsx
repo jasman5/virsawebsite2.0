@@ -19,6 +19,7 @@ interface GenSecCardProps {
 }
 const GenSecCard: React.FC<GenSecCardProps> = ({
   name,
+  position,
   description,
   imageUrl,
   instagramUrl,
@@ -78,7 +79,7 @@ const GenSecCard: React.FC<GenSecCardProps> = ({
           {/* Position badge – very top */}
           <div className="absolute top-4 right-4 z-30">
             <span className="inline-block px-3 py-1 text-xs font-medium bg-amber-600/90 text-white rounded-full shadow-lg">
-              General Secretary
+              {position}
             </span>
           </div>
         </div>
@@ -262,18 +263,22 @@ const Heads = () => {
       name: "Udaypratap Singh",
       position: "General Secretary",
       imageUrl: "/headspic/uday.jpeg",
-      instagramUrl:
-        "https://www.instagram.com/udaypartapsingh.brar?igsi=enB0OG45cWRvNWFl",
+      instagramUrl: "https://www.instagram.com/udaypartap.singh.brar?igsh=enB0OG45cWRvNWFl",
+      linkedinUrl: "https://www.linkedin.com/in/udaypartap-singh-58655934?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       name: "Jasmine Kaur",
       position: "General Secretary",
-      imageUrl: "",
+      imageUrl: "/headspic/jasmine.jpeg",
+      instagramUrl: "https://www.instagram.com/jasmine_28kaur?igsh=e1ZqeXh0dmF0NGl5&utm_source=qr",
+      linkedinUrl: "https://www.linkedin.com/in/jasmine-kaur-046887320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
     {
       name: "Meharpreet Singh",
       position: "General Secretary",
       imageUrl: "/headspic/mehar.jpeg",
+      instagramUrl: "https://www.instagram.com/_mehar96?igsh=NzV3OGU3OXlxN3Bu",
+      linkedinUrl: "https://www.linkedin.com/in/meharpreet-singh-594109244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
   ];
 
@@ -283,6 +288,8 @@ const Heads = () => {
       name: "Harnoor Kaur",
       position: "Overall Student Coordinator",
       imageUrl: "/headspic/harnoor.jpg",
+      instagramUrl: "https://www.instagram.com/harnoor7024?igsh=bG9uc3d3MnBzc2Zn&utm_source=qr",
+      linkedinUrl: "https://www.linkedin.com/in/harnoorkaur20042?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
   ];
 
@@ -683,13 +690,13 @@ const Heads = () => {
           viewport={{ once: true }}
           className="mb-20"
         >
-          <div className="flex items-center justify-center mb-10">
+          <div className="flex items-center mb-10">
             <div className="w-1 h-12 bg-gradient-to-b from-amber-400 to-amber-600 rounded-full mr-4"></div>
             <h2 className="text-3xl font-bold text-amber-500">
               Overall Student Coordinator
             </h2>
           </div>
-          <div className="grid grid-cols-1 justify-items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 md:gap-6">
             {overallCoordinator.map((coordinator, index) => (
               <GenSecCard key={index} {...coordinator} />
             ))}

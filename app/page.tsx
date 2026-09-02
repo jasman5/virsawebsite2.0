@@ -69,16 +69,26 @@ export default function Home() {
                 Registrations Open!
               </h2>
               <p className="text-gray-300 text-lg mb-8">
-                Join Virsa Cultural Society - Open for 1st and 2nd Year Students
+                Join SSA Virsa - Choose your year to register
               </p>
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfG5k6Q21EEmabCJb9QAEn-x45sN38YZtxnXToncoDUt83Zcw/viewform?usp=publish-editor"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-8 py-4 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-full shadow-lg transition-all duration-300 transform hover:-translate-y-1"
-              >
-                Register Now
-              </a>
+              <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfNhoTeWHzrzHUzUgWrqIngwoxyoP4bGOuzGgefB_Tbp30ZWg/viewform?usp=publish-editor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-8 py-4 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-full shadow-lg transition-all duration-300 transform hover:-translate-y-1 min-w-[200px]"
+                >
+                  1st Year Registration
+                </a>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfG5k6Q21EEmabCJb9QAEn-x45sN38YZtxnXToncoDUt83Zcw/viewform?usp=publish-editor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-8 py-4 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-full shadow-lg transition-all duration-300 transform hover:-translate-y-1 min-w-[200px]"
+                >
+                  2nd Year Registration
+                </a>
+              </div>
             </div>
           </div>
         </div>
