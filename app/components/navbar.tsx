@@ -34,7 +34,7 @@ export default function App_Navbar() {
   const menuItems = [
     { name: "Home", path: "/", punjabi: "ਘਰ" },
     { name: "Gallery", path: "/gallery", punjabi: "ਗੈਲਰੀ" },
-    { name: "Events", path: "/events", punjabi: "ਪ੍ਰੋਗਰਾਮ" },
+    { name: "Kamm", path: "/events", punjabi: "ਪ੍ਰੋਗਰਾਮ" },
     { name: "Core", path: "/core", punjabi: "ਕੋਰ" },
     { name: "Heads", path: "/heads", punjabi: "ਮੁਖੀ" },
   ];
