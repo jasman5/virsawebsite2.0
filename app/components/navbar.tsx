@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 const menuItems = [
   { name: "Home", path: "/" },
   { name: "Gallery", path: "/gallery" },
-  { name: "Events", path: "/events" },
+  { name: "Kamm", path: "/events" },
   { name: "Core", path: "/core" },
   { name: "Heads", path: "/heads" },
 ];
