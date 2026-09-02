@@ -261,7 +261,7 @@ const Heads = () => {
     {
       name: "Udaypratap Singh",
       position: "General Secretary",
-      imageUrl: "/headspic/UDAYPARTAP SINGH.JPG",
+      imageUrl: "/headspic/uday.jpeg",
       instagramUrl:
         "https://www.instagram.com/udaypartapsingh.brar?igsi=enB0OG45cWRvNWFl",
     },
@@ -273,7 +273,16 @@ const Heads = () => {
     {
       name: "Meharpreet Singh",
       position: "General Secretary",
-      imageUrl: "",
+      imageUrl: "/headspic/mehar.jpeg",
+    },
+  ];
+
+  // Overall Student Coordinator
+  const overallCoordinator: GenSecCardProps[] = [
+    {
+      name: "Harnoor Kaur",
+      position: "Overall Student Coordinator",
+      imageUrl: "/headspic/harnoor.jpg",
     },
   ];
 
@@ -662,6 +671,27 @@ const Heads = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {genSecs.map((genSec, index) => (
               <GenSecCard key={index} {...genSec} />
+            ))}
+          </div>
+        </motion.div>
+
+        {/* Overall Student Coordinator Section */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+          className="mb-20"
+        >
+          <div className="flex items-center justify-center mb-10">
+            <div className="w-1 h-12 bg-gradient-to-b from-amber-400 to-amber-600 rounded-full mr-4"></div>
+            <h2 className="text-3xl font-bold text-amber-500">
+              Overall Student Coordinator
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 justify-items-center">
+            {overallCoordinator.map((coordinator, index) => (
+              <GenSecCard key={index} {...coordinator} />
             ))}
           </div>
         </motion.div>
