@@ -34,7 +34,7 @@ export default function Home() {
       <App_Navbar />
 
       {/* Featured Video Section */}
-      <section className="w-full pb-40">
+      <section className="w-full pb-0">
         <div>
           <VideoPlayer />
         </div>
@@ -55,6 +55,33 @@ export default function Home() {
       {/* Facts Section */}
       <section className="bg-black ">
         <GlowingEffectDemo />
+      </section>
+
+      {/* Registration Banner Section - Just above footer */}
+      <section className="w-full py-16 px-4 bg-black">
+        <div className="container mx-auto">
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="bg-gray-900 rounded-2xl p-10 md:p-14 border-2 border-amber-500/30 shadow-2xl">
+              <div className="inline-block px-4 py-2 bg-amber-500 text-white text-sm font-semibold rounded-full mb-4 animate-pulse">
+                NOW OPEN
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold text-amber-400 mb-4">
+                Registrations Open!
+              </h2>
+              <p className="text-gray-300 text-lg mb-8">
+                Join Virsa Cultural Society - Open for 1st and 2nd Year Students
+              </p>
+              <a
+                href="YOUR_GOOGLE_FORM_URL_HERE"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-8 py-4 bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-full shadow-lg transition-all duration-300 transform hover:-translate-y-1"
+              >
+                Register Now
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Footer Section */}

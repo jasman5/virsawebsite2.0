@@ -10,18 +10,8 @@ interface TeamMember {
   id: number;
   name: string;
   imageUrl: string;
-  socialLinks?: {
-    instagram?: string;
-    linkedin?: string;
-  };
-}
-
-interface TeamMember {
-  id: number;
-  name: string;
-  imageUrl: string;
   bio: string; // placeholder - update bio text later
-  socialLinks: {
+  socialLinks?: {
     instagram?: string;
     linkedin?: string;
   };

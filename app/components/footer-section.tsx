@@ -163,7 +163,7 @@ const FooterSection: React.FC = () => {
         </div>
         <div className="mt-6 flex flex-col items-center justify-between gap-2 border-t pt-4 text-center md:flex-row">
           <p className="text-xs text-muted-foreground">
-            © 2025 Virsa Society, Thapar Institute. All rights reserved.
+            © 2026 Virsa Society, Thapar Institute. All rights reserved.
           </p>
           <div className="text-xs text-muted-foreground italic">
             ਸਾਡੀਆਂ ਜੜ੍ਹਾਂ, ਸਾਡਾ ਮਾਣ | Our roots, our pride
