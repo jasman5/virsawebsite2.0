@@ -262,20 +262,23 @@ const Heads = () => {
     {
       name: "Udaypratap Singh",
       position: "General Secretary",
-      imageUrl: "/headspic/uday.jpeg",
+      //description: "The one keeping things moving behind the scenes.",
+      imageUrl: "/headspic/UDAYPARTAP SINGH.jpg",
       instagramUrl: "https://www.instagram.com/udaypartap.singh.brar?igsh=enB0OG45cWRvNWFl",
       linkedinUrl: "https://www.linkedin.com/in/udaypartap-singh-58655934?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       name: "Jasmine Kaur",
       position: "General Secretary",
-      imageUrl: "/headspic/jasmine.jpeg",
+      //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
+      imageUrl: "/headspic/jasmine.jpg",
       instagramUrl: "https://www.instagram.com/jasmine_28kaur?igsh=e1ZqeXh0dmF0NGl5&utm_source=qr",
       linkedinUrl: "https://www.linkedin.com/in/jasmine-kaur-046887320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
     {
       name: "Meharpreet Singh",
       position: "General Secretary",
+      //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
       imageUrl: "/headspic/mehar.jpeg",
       instagramUrl: "https://www.instagram.com/_mehar96?igsh=NzV3OGU3OXlxN3Bu",
       linkedinUrl: "https://www.linkedin.com/in/meharpreet-singh-594109244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -287,7 +290,8 @@ const Heads = () => {
     {
       name: "Harnoor Kaur",
       position: "Overall Student Coordinator",
-      imageUrl: "/headspic/harnoor.jpg",
+      //description: "For me, Virsa is more than just a society, it’s a feeling, a family, and a little piece of home. Let’s make this year count! ❤️ Ft. Coolest OSC",
+      imageUrl: "/headspic/HARNOOR KAUR.jpeg",
       instagramUrl: "https://www.instagram.com/harnoor7024?igsh=bG9uc3d3MnBzc2Zn&utm_source=qr",
       linkedinUrl: "https://www.linkedin.com/in/harnoorkaur20042?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
@@ -301,12 +305,14 @@ const Heads = () => {
         {
           name: "Agam Kooner",
           position: "Convener",
+          //description: "Proudly part of Virsa, bringing ideas, keeping our culture alive, and creating experiences that bring us together.",
           imageUrl: "/headspic/Agam Singh.jpeg",
           instagramUrl: "https://www.instagram.com/agam_kooner18",
         },
         {
           name: "Roopneet Cheema",
           position: "Convener",
+          //description: "A creative, driven, and approachable person who brings great energy to everything they do, is always curious to explore new ideas, and genuinely enjoys learning, collaborating, and taking on new challenges.",
           imageUrl: "/headspic/Roopneet Cheema.jpg",
           instagramUrl: "https://www.instagram.com/cheema._.8",
           linkedinUrl:
@@ -320,6 +326,7 @@ const Heads = () => {
         {
           name: "Sehaj Saran",
           position: "Event Coordinator",
+          //description: "Let's get it done ",
           imageUrl: "/headspic/Sehajpreet Singh Saran.jpg",
           instagramUrl:
             "https://www.instagram.com/sehaj_.saran?igsi=MWhqOG5kYTdlZHZ0ag==",
@@ -334,16 +341,17 @@ const Heads = () => {
         {
           name: "Agam Kooner",
           position: "Content Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "/headspic/Agam Singh.jpeg",
           instagramUrl: "https://www.instagram.com/agam_kooner18",
         },
         {
           name: "Yashika Sherawat",
           position: "Content Head",
+          //description: "I'm Yashika Sherawat, a creative and enthusiastic student who enjoys content creation, marketing, and working with people. I like taking initiative, exploring new ideas, and contributing to events and teams.",
           imageUrl: "/headspic/Yashika.jpg",
           instagramUrl: "https://www.instagram.com/_yashika_sherawat_",
-          linkedinUrl:
-            "https://www.linkedin.com/in/yashika-722899321?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+          linkedinUrl: "https://www.linkedin.com/in/yashika-722899321?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         },
       ],
     },
@@ -353,21 +361,25 @@ const Heads = () => {
         {
           name: "Bhavdeep Singh",
           position: "Creativity Head",
-          imageUrl: "",
+          //description: "A person who loves to interact with new people.",
+          imageUrl: "/headspic/Bhavdeep Singh.jpeg",
         },
         {
           name: "Furmaan Kaur",
           position: "Creativity Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "/headspic/furmaan kaur.jpg",
         },
         {
           name: "Gurman Singh",
           position: "Creativity Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "",
         },
         {
           name: "Manav",
           position: "Creativity Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "",
         },
       ],
@@ -378,25 +390,31 @@ const Heads = () => {
         {
           name: "Akshit Mahajan",
           position: "Cultural Head",
+          //description: "A Man Of God Is Unstoppable.",
           imageUrl: "/headspic/Akshit Mahajan.jpg",
-          instagramUrl:
-            "https://www.instagram.com/akshhit_mahajann?igsh=N2NvM3Q4ZDVra3Ny&utm_source=qr",
-          linkedinUrl:
-            "https://www.linkedin.com/in/akshit-mahajan-87361335b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+          instagramUrl: "https://www.instagram.com/akshhit_mahajann?igsh=N2NvM3Q4ZDVra3Ny&utm_source=qr",
+          linkedinUrl: "https://www.linkedin.com/in/akshit-mahajan-87361335b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         },
         {
           name: "Bismanjot Singh",
           position: "Cultural Head",
+          //description: "Punjabi vocalist, deeply connected to Punjabi folk and pop, carrying the essence of our Virsa through music",
           imageUrl: "/headspic/Bismanjot Singh.jpg",
+          instagramUrl: "https://www.instagram.com/bismanjot07",
+          linkedinUrl: "https://www.linkedin.com/in/bismanjot-singh-125757319/",
         },
         {
           name: "Harsirat Kaur",
           position: "Cultural Head",
-          imageUrl: "",
+          //description: "Computer Science Student | Cultural Head Blending technology, creativity, and leadership to create meaningful experiences. For me, Virsa is more than just a society, it's a feeling, a little piece of home. Let's make this our count ❤️ Ft. Coolest OSC",
+          imageUrl: "/headspic/Harsirat Kaur.png",
+          instagramUrl: "https://www.instagram.com/sirat_dhanju_",
+          linkedinUrl: "https://www.linkedin.com/in/theharsiratkaur/",
         },
         {
           name: "Sharanpreet Kaur",
           position: "Cultural Head",
+          //description: "I serve as the Cultural Head of Virsa, where I lead the planning and execution of cultural events, festivals, and performances that celebrate Punjabi heritage and tradition. Passionate about keeping our roots alive, I work with fellow members to create programs that honor our past while inspiring the present generation – ensuring Virsa remains a vibrant platform where tradition and community come together.",
           imageUrl: "/headspic/Sharan Preet Kaur.jpg",
         },
       ],
@@ -407,6 +425,7 @@ const Heads = () => {
         {
           name: "Roopneet Cheema",
           position: "Design Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "/headspic/Roopneet Cheema.jpg",
           instagramUrl: "https://www.instagram.com/cheema._.8",
           linkedinUrl:
@@ -415,6 +434,7 @@ const Heads = () => {
         {
           name: "Sajneet Kaur Grewal",
           position: "Design Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "",
         },
       ],
@@ -425,6 +445,7 @@ const Heads = () => {
         {
           name: "Abhinav Bindra",
           position: "Discipline Head",
+          //description: "Calm mind, chaotic humour.",
           imageUrl: "/headspic/Abhinav Bindra.jpg",
           instagramUrl: "https://www.instagram.com/abhi_bindra",
           linkedinUrl: "https://www.linkedin.com/in/abhinav-bindra-55a5163b4",
@@ -432,6 +453,7 @@ const Heads = () => {
         {
           name: "Harden Singh",
           position: "Discipline Head",
+          //description: "I'm Harden Singh, student of Chemical Engineering (3rd year), Head of Gurupurab and Discipline.",
           imageUrl: "/headspic/Harden Singh.jpg",
           instagramUrl: "https://www.instagram.com/Harden_singh_",
           linkedinUrl: "https://www.linkedin.com/in/harden-singh-778a98396",
@@ -439,15 +461,17 @@ const Heads = () => {
         {
           name: "Japji Kaur",
           position: "Discipline Head",
+          //description: "Somewhere between a daydream and a destination.",
           imageUrl: "/headspic/Japji Kaur Bains.jpg",
           instagramUrl: "https://www.instagram.com/japji.bains22?igsh=eWVxeG1mcHJubGhj",
-          linkedinUrl:
-            "https://www.linkedin.com/in/japji-kaur-bains-a25bb1336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          linkedinUrl: "https://www.linkedin.com/in/japji-kaur-bains-a25bb1336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         },
         {
           name: "Rabaaz Singh",
           position: "Discipline Head",
+         // description: "Honouring the roots",
           imageUrl: "/headspic/Rabaaz Singh.jpeg",
+          instagramUrl: "https://www.instagram.com/Rabaazsidhu",
         },
       ],
     },
@@ -457,7 +481,10 @@ const Heads = () => {
         {
           name: "Eaimanjot Singh",
           position: "Documentation Head",
+          //description: "Somewhere between ambition and spontaneity, figuring it all out along the way",
           imageUrl: "/headspic/Eaimanjot Singh.jpeg",
+          instagramUrl: "https://www.instagram.com/eaimanjot.sidhu",
+          linkedinUrl: "https://www.linkedin.com/in/eaimanjot-singh",
         },
       ],
     },
@@ -467,6 +494,7 @@ const Heads = () => {
         {
           name: "Sehaj Saran",
           position: "Finance Head",
+         // description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "/headspic/Sehajpreet Singh Saran.jpg",
           instagramUrl:
             "https://www.instagram.com/sehaj_.saran?igsi=MWhqOG5kYTdlZHZ0ag==",
@@ -481,16 +509,19 @@ const Heads = () => {
         {
           name: "Angadjot Singh",
           position: "Gurpurab Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "",
         },
         {
           name: "Ashmeen Kaur",
           position: "Gurpurab Head",
+          // description: "I am Ashmeen Kaur, the Gurpurab Head at VIRSA. I value guidance, shared learning, and thoughtful conversations. I'm always happy to offer support where my experience may be useful, including discussions about spirituality and personal growth.",
           imageUrl: "/headspic/Ashmeen Kaur.jpg",
         },
         {
           name: "Harden Singh",
           position: "Gurpurab Head",
+          description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "/headspic/Harden Singh.jpg",
           instagramUrl: "https://www.instagram.com/Harden_singh_",
           linkedinUrl: "https://www.linkedin.com/in/harden-singh-778a98396",
@@ -503,11 +534,15 @@ const Heads = () => {
         {
           name: "Diya Mahajan",
           position: "Hospitality Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "/headspic/Diya Mahajan.jpg",
+          instagramUrl: "https://www.instagram.com/diya_mahajann",
+          linkedinUrl:"https://www.linkedin.com/in/diya-mahajan-441b59343/",
         },
         {
           name: "Nandini",
           position: "Hospitality Head",
+          //description: "Nandini this sidee!!",
           imageUrl: "/headspic/Nandini Shekhar.jpg",
         },
       ],
@@ -518,6 +553,7 @@ const Heads = () => {
         {
           name: "Akshit Mahajan",
           position: "Logistics Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "/headspic/Akshit Mahajan.jpg",
           instagramUrl:
             "https://www.instagram.com/akshhit_mahajann?igsh=N2NvM3Q4ZDVra3Ny&utm_source=qr",
@@ -527,6 +563,7 @@ const Heads = () => {
         {
           name: "Taran",
           position: "Logistics Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "",
         },
       ],
@@ -537,20 +574,21 @@ const Heads = () => {
         {
           name: "Bhavdeep Singh",
           position: "Marketing Head",
-          imageUrl: "",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
+          imageUrl: "/headspic/Bhavdeep Singh.jpeg",
         },
         {
           name: "Hargunpreet Singh",
           position: "Marketing Head",
+          //description: "Ambitious enough to chase big things, curious enough to keep learning, and chill enough to enjoy the journey.",
           imageUrl: "/headspic/Hargunpreet S Sujlana.jpg",
-          instagramUrl:
-            "https://www.instagram.com/hargunpreet._?igsh=MTF3cGU2dHgzYmJyaw%3D%3D&utm_source=qr",
-          linkedinUrl:
-            "https://www.linkedin.com/in/hargunpreet-singh-sujlana-5b4793305?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+          instagramUrl: "https://www.instagram.com/hargunpreet._?igsh=MTF3cGU2dHgzYmJyaw%3D%3D&utm_source=qr",
+          linkedinUrl: "https://www.linkedin.com/in/hargunpreet-singh-sujlana-5b4793305?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
         },
         {
           name: "Yashika Sherawat",
           position: "Marketing Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "/headspic/Yashika.jpg",
           instagramUrl: "https://www.instagram.com/_yashika_sherawat_",
           linkedinUrl:
@@ -564,11 +602,13 @@ const Heads = () => {
         {
           name: "Gurman Singh",
           position: "Media Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "",
         },
         {
           name: "Gurmanjot Singh",
           position: "Media Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "",
         },
       ],
@@ -579,11 +619,15 @@ const Heads = () => {
         {
           name: "Diya Mahajan",
           position: "Publicity Head",
+          //description: "Hi, I'm Diya Mahajan, enjoys interacting with people, managing responsibilities, and creating a welcoming experience at events. With strong communication and teamwork skills, I'm excited to contribute to the society as a Publicity & Hospitality Head.",
           imageUrl: "/headspic/Diya Mahajan.jpg",
+          instagramUrl: "https://www.instagram.com/diya_mahajann",
+          linkedinUrl:"https://www.linkedin.com/in/diya-mahajan-441b59343/"
         },
         {
           name: "Hargunpreet Singh",
           position: "Publicity Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "/headspic/Hargunpreet S Sujlana.jpg",
           instagramUrl:
             "https://www.instagram.com/hargunpreet._?igsh=MTF3cGU2dHgzYmJyaw%3D%3D&utm_source=qr",
@@ -598,7 +642,10 @@ const Heads = () => {
         {
           name: "Paramveer Singh",
           position: "Technical Head",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "/headspic/Paramveer Singh.jpeg.PNG",
+          instagramUrl:"https://www.instagram.com/1322._param/?__pwa=1",
+          linkedinUrl:"https://www.linkedin.com/in/paramveer-singh-333469378",
         },
       ],
     },

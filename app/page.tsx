@@ -69,7 +69,7 @@ export default function Home() {
                 Registrations Open!
               </h2>
               <p className="text-gray-300 text-lg mb-8">
-                Join SSA Virsa - Choose your year to register
+                Join SSA Virsa - Register according to your year
               </p>
               <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
                 <a
