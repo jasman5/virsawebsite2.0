@@ -363,6 +363,8 @@ const Heads = () => {
           position: "Creativity Head",
           //description: "A person who loves to interact with new people.",
           imageUrl: "/headspic/Bhavdeep Singh.jpeg",
+          instagramUrl:"https://www.instagram.com/bhavdeep_singh15/?__pwa=1",
+          linkedinUrl:"https://www.linkedin.com/in/bhavdeep-singh-a5b930316/"
         },
         {
           name: "Furmaan Kaur",
@@ -576,6 +578,8 @@ const Heads = () => {
           position: "Marketing Head",
           //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "/headspic/Bhavdeep Singh.jpeg",
+          instagramUrl:"https://www.instagram.com/bhavdeep_singh15/?__pwa=1",
+          linkedinUrl:"https://www.linkedin.com/in/bhavdeep-singh-a5b930316/"
         },
         {
           name: "Hargunpreet Singh",
