@@ -69,8 +69,7 @@ const FooterSection: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-primary" />
-                <p>+91 86288 02887</p><br/>
-                <p>+91 82849 13118</p>
+                <p>+91 86288 02887<br></br>+91 82849 13118</p>
               </div>
               <div className="flex items-center gap-2">
                 <Send className="h-4 w-4 text-primary" />
