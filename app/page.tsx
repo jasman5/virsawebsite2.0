@@ -57,7 +57,7 @@ export default function Home() {
         <GlowingEffectDemo />
       </section>
 
-      {/* Registration Banner Section - Just above footer */}
+      {/* Registration Banner Section - Just above footer
       <section className="w-full py-16 px-4 bg-black">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center">
@@ -92,7 +92,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer Section */}
       <section className="bg-black ">
