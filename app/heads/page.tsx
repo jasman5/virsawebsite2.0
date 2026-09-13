@@ -523,7 +523,7 @@ const Heads = () => {
         {
           name: "Harden Singh",
           position: "Gurpurab Head",
-          description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
+          //description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
           imageUrl: "/headspic/Harden Singh.jpg",
           instagramUrl: "https://www.instagram.com/Harden_singh_",
           linkedinUrl: "https://www.linkedin.com/in/harden-singh-778a98396",
