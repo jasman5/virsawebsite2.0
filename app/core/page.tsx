@@ -182,7 +182,7 @@ const coreTeamMembers: TeamMember[] = [
   {
     id: 18,
     name: "Jashan Chauhan",
-    imageUrl: "/corepic/JJASHAN.jpeg",
+    imageUrl: "/corepic/Jjashan.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {
       instagram: "https://www.instagram.com/jasshaannn",
