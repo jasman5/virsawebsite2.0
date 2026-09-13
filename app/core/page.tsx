@@ -134,7 +134,7 @@ const coreTeamMembers: TeamMember[] = [
   {
     id: 13,
     name: "Gunraj Singh",
-    imageUrl: "/corepic/Gunraj Singh.jpg",
+    imageUrl: "/corepic/Gunraj Singh.JPG",
     bio: "", // TODO: add bio
     socialLinks: {
       instagram: "https://www.instagram.com/gunraj_07?igsi=MXd2Y29pM3V5bmN4NQ==",
@@ -182,7 +182,7 @@ const coreTeamMembers: TeamMember[] = [
   {
     id: 18,
     name: "Jashan Chauhan",
-    imageUrl: "/corepic/Jjashan.jpeg",
+    imageUrl: "/corepic/JJashan.jpeg",
     bio: "", // TODO: add bio
     socialLinks: {
       instagram: "https://www.instagram.com/jasshaannn",
@@ -258,7 +258,7 @@ const coreTeamMembers: TeamMember[] = [
   {
     id: 27,
     name: "Ramanbir Singh",
-    imageUrl: "/corepic/Ramanbir.jpg",
+    imageUrl: "/corepic/ramanbir.jpg",
     bio: "", // TODO: add bio
     socialLinks: {
       instagram:
@@ -316,7 +316,7 @@ const coreTeamMembers: TeamMember[] = [
   {
     id: 33,
     name: "Samridh Chopra",
-    imageUrl: "/corepic/Samridh Chopra.jpg",
+    imageUrl: "/corepic/Samridh Chopra.JPG",
     bio: "", // TODO: add bio
     socialLinks: {},
   },
